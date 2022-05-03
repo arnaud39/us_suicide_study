@@ -1,0 +1,43 @@
+"Notes"	"Race"	"Race Code"	"Ethnicity"	"Ethnicity Code"	Population
+	"American Indian or Alaska Native"	"1002-5"	"Hispanic or Latino"	"2135-2"	2133093
+	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-5"	2766392
+"Total"	"American Indian or Alaska Native"	"1002-5"			4899485
+	"Asian or Pacific Islander"	"A-PI"	"Hispanic or Latino"	"2135-2"	1128901
+	"Asian or Pacific Islander"	"A-PI"	"Not Hispanic or Latino"	"2186-5"	21284836
+"Total"	"Asian or Pacific Islander"	"A-PI"			22413737
+	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	3560612
+	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-5"	43620633
+"Total"	"Black or African American"	"2054-5"			47181245
+	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	54490273
+	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-5"	200499383
+"Total"	"White"	"2106-3"			254989656
+"Total"					329484123
+"---"
+"Dataset: Bridged-Race Population Estimates 1990-2020"
+"Query Parameters:"
+"Title: Race_Eth_Pop_2020"
+"Yearly July 1st Estimates: 2020"
+"Group By: Race; Ethnicity"
+"Show Totals: True"
+"Show Zero Values: True"
+"Data Table: Default"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/bridged-race.html for more information."
+"---"
+"Query Date: Apr 25, 2022 3:18:16 AM"
+"---"
+"Suggested Citation: United States Department of Health and Human Services (US DHHS), Centers for Disease Control and Prevention"
+"(CDC), National Center for Health Statistics (NCHS), Bridged-Race Population Estimates, United States July 1st resident"
+"population by state, county, age, sex, bridged-race, and Hispanic origin. Compiled from 1990-1999 bridged-race intercensal"
+"population estimates (released by NCHS on 7/26/2004); revised bridged-race 2000-2009 intercensal population estimates (released"
+"by NCHS on 10/26/2012); and bridged-race Vintage 2020 (2010-2020) postcensal population estimates (released by NCHS on"
+"9/22/2021). Available on CDC WONDER Online Database. Accessed at http://wonder.cdc.gov/bridged-race-v2020.html on Apr 25, 2022"
+"3:18:16 AM"
+"---"
+Footnotes:
+"1. Estimates for 1990-1999 are bridged-race intercensal population estimates of the July 1 resident population. Estimates for"
+"2000-2009 are revised bridged-race intercensal estimates of the July 1 resident population. Estimates for 2010-2020 are"
+"bridged-race Vintage 2020 postcensal estimates of the July 1 resident population. These estimates were prepared by the Census"
+"Bureau in collaboration with NCHS."
+"---"
+Caveats:

@@ -1,0 +1,132 @@
+"Notes"	"Year"	"Year Code"	"Gender"	"Gender Code"	Deaths	Population	Crude Rate	Crude Rate Lower 95% Confidence Interval	Crude Rate Upper 95% Confidence Interval	Crude Rate Standard Error	% of Total Deaths
+	"1999"	"1999"	"Female"	"F"	318	19617233	1.6	1.4	1.8	0.1	0.7%
+	"1999"	"1999"	"Male"	"M"	1539	20680733	7.4	7.1	7.8	0.2	3.3%
+"Total"	"1999"	"1999"			1857	40297966	4.6	4.4	4.8	0.1	3.9%
+	"2000"	"2000"	"Female"	"F"	332	19836761	1.7	1.5	1.9	0.1	0.7%
+	"2000"	"2000"	"Male"	"M"	1589	20911201	7.6	7.2	8.0	0.2	3.4%
+"Total"	"2000"	"2000"			1921	40747962	4.7	4.5	4.9	0.1	4.1%
+	"2001"	"2001"	"Female"	"F"	331	20140366	1.6	1.5	1.8	0.1	0.7%
+	"2001"	"2001"	"Male"	"M"	1552	21294596	7.3	6.9	7.7	0.2	3.3%
+"Total"	"2001"	"2001"			1883	41434962	4.5	4.3	4.7	0.1	4.0%
+	"2002"	"2002"	"Female"	"F"	297	20353301	1.5	1.3	1.6	0.1	0.6%
+	"2002"	"2002"	"Male"	"M"	1476	21518490	6.9	6.5	7.2	0.2	3.1%
+"Total"	"2002"	"2002"			1773	41871791	4.2	4.0	4.4	0.1	3.8%
+	"2003"	"2003"	"Female"	"F"	321	20531442	1.6	1.4	1.7	0.1	0.7%
+	"2003"	"2003"	"Male"	"M"	1410	21681077	6.5	6.2	6.8	0.2	3.0%
+"Total"	"2003"	"2003"			1731	42212519	4.1	3.9	4.3	0.1	3.7%
+	"2004"	"2004"	"Female"	"F"	453	20686499	2.2	2.0	2.4	0.1	1.0%
+	"2004"	"2004"	"Male"	"M"	1530	21827733	7.0	6.7	7.4	0.2	3.2%
+"Total"	"2004"	"2004"			1983	42514232	4.7	4.5	4.9	0.1	4.2%
+	"2005"	"2005"	"Female"	"F"	378	20783171	1.8	1.6	2.0	0.1	0.8%
+	"2005"	"2005"	"Male"	"M"	1505	21915622	6.9	6.5	7.2	0.2	3.2%
+"Total"	"2005"	"2005"			1883	42698793	4.4	4.2	4.6	0.1	4.0%
+	"2006"	"2006"	"Female"	"F"	358	20859237	1.7	1.5	1.9	0.1	0.8%
+	"2006"	"2006"	"Male"	"M"	1413	21981610	6.4	6.1	6.8	0.2	3.0%
+"Total"	"2006"	"2006"			1771	42840847	4.1	3.9	4.3	0.1	3.7%
+	"2007"	"2007"	"Female"	"F"	312	20901408	1.5	1.3	1.7	0.1	0.7%
+	"2007"	"2007"	"Male"	"M"	1349	22007450	6.1	5.8	6.5	0.2	2.9%
+"Total"	"2007"	"2007"			1661	42908858	3.9	3.7	4.1	0.1	3.5%
+	"2008"	"2008"	"Female"	"F"	386	20913622	1.8	1.7	2.0	0.1	0.8%
+	"2008"	"2008"	"Male"	"M"	1433	22003913	6.5	6.2	6.8	0.2	3.0%
+"Total"	"2008"	"2008"			1819	42917535	4.2	4.0	4.4	0.1	3.8%
+	"2009"	"2009"	"Female"	"F"	432	20893303	2.1	1.9	2.3	0.1	0.9%
+	"2009"	"2009"	"Male"	"M"	1496	21960071	6.8	6.5	7.2	0.2	3.2%
+"Total"	"2009"	"2009"			1928	42853374	4.5	4.3	4.7	0.1	4.1%
+	"2010"	"2010"	"Female"	"F"	423	20834009	2.0	1.8	2.2	0.1	0.9%
+	"2010"	"2010"	"Male"	"M"	1503	21883528	6.9	6.5	7.2	0.2	3.2%
+"Total"	"2010"	"2010"			1926	42717537	4.5	4.3	4.7	0.1	4.1%
+	"2011"	"2011"	"Female"	"F"	455	20642919	2.2	2.0	2.4	0.1	1.0%
+	"2011"	"2011"	"Male"	"M"	1629	21705976	7.5	7.1	7.9	0.2	3.4%
+"Total"	"2011"	"2011"			2084	42348895	4.9	4.7	5.1	0.1	4.4%
+	"2012"	"2012"	"Female"	"F"	495	20499845	2.4	2.2	2.6	0.1	1.0%
+	"2012"	"2012"	"Male"	"M"	1593	21530075	7.4	7.0	7.8	0.2	3.4%
+"Total"	"2012"	"2012"			2088	42029920	5.0	4.8	5.2	0.1	4.4%
+	"2013"	"2013"	"Female"	"F"	539	20410705	2.6	2.4	2.9	0.1	1.1%
+	"2013"	"2013"	"Male"	"M"	1595	21398713	7.5	7.1	7.8	0.2	3.4%
+"Total"	"2013"	"2013"			2134	41809418	5.1	4.9	5.3	0.1	4.5%
+	"2014"	"2014"	"Female"	"F"	580	20403911	2.8	2.6	3.1	0.1	1.2%
+	"2014"	"2014"	"Male"	"M"	1682	21335242	7.9	7.5	8.3	0.2	3.6%
+"Total"	"2014"	"2014"			2262	41739153	5.4	5.2	5.6	0.1	4.8%
+	"2015"	"2015"	"Female"	"F"	682	20412978	3.3	3.1	3.6	0.1	1.4%
+	"2015"	"2015"	"Male"	"M"	1788	21318255	8.4	8.0	8.8	0.2	3.8%
+"Total"	"2015"	"2015"			2470	41731233	5.9	5.7	6.2	0.1	5.2%
+	"2016"	"2016"	"Female"	"F"	687	20427654	3.4	3.1	3.6	0.1	1.5%
+	"2016"	"2016"	"Male"	"M"	1866	21320578	8.8	8.4	9.1	0.2	3.9%
+"Total"	"2016"	"2016"			2553	41748232	6.1	5.9	6.4	0.1	5.4%
+	"2017"	"2017"	"Female"	"F"	722	20504551	3.5	3.3	3.8	0.1	1.5%
+	"2017"	"2017"	"Male"	"M"	2286	21405563	10.7	10.2	11.1	0.2	4.8%
+"Total"	"2017"	"2017"			3008	41910114	7.2	6.9	7.4	0.1	6.4%
+	"2018"	"2018"	"Female"	"F"	744	20543000	3.6	3.4	3.9	0.1	1.6%
+	"2018"	"2018"	"Male"	"M"	2256	21433748	10.5	10.1	11.0	0.2	4.8%
+"Total"	"2018"	"2018"			3000	41976748	7.1	6.9	7.4	0.1	6.3%
+	"2019"	"2019"	"Female"	"F"	714	20488970	3.5	3.2	3.7	0.1	1.5%
+	"2019"	"2019"	"Male"	"M"	2030	21363868	9.5	9.1	9.9	0.2	4.3%
+"Total"	"2019"	"2019"			2744	41852838	6.6	6.3	6.8	0.1	5.8%
+	"2020 "	"2020"	"Female"	"F"	731	20425787	3.6	3.3	3.8	0.1	1.5%
+	"2020 "	"2020"	"Male"	"M"	2066	21289565	9.7	9.3	10.1	0.2	4.4%
+"Total"	"2020 "	"2020"			2797	41715352	6.7	6.5	7.0	0.1	5.9%
+"Total"					47276	924878279	5.1	5.1	5.2	0.0	100.0%
+"---"
+"Dataset: Underlying Cause of Death, 1999-2020"
+"Query Parameters:"
+"Title: Gender_Suicide_National_10_19"
+"Five-Year Age Groups: 10-14 years; 15-19 years"
+"ICD-10 Codes: X60-X84 (Intentional self-harm); Y87.0 (Sequelae of intentional self-harm)"
+"Group By: Year; Gender"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Apr 23, 2022 3:37:40 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death"
+"1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files, 1999-2020, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/ucd-icd10.html on Apr 23, 2022 3:37:40 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision."
+"2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of"
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data."
+"More information: http://wonder.cdc.gov/wonder/help/ucd.html#Georgia-Reporting-Anomalies."
+"3. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code"
+"R99, ""Other ill-defined and unspecified causes of mortality"" and therefore unusually low death counts in other ICD-10 codes,"
+"most notably R95, ""Sudden Infant Death Syndrome"" and X40-X49, ""Unintentional poisoning."" Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#New-Jersey-Reporting-Anomalies."
+"4. Circumstances in California resulted in unusually high death counts for the ICD-10 cause of death code R99, ""Other"
+"ill-defined and unspecified causes of mortality"" for deaths occurring in years 2000 and 2001. Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#California-Reporting-Anomalies."
+"5. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated."
+"6. The method used to calculate 95% confidence intervals is documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Confidence-Intervals."
+"7. The method used to calculate standard errors is documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Standard-Errors."
+"8. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010"
+"are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident"
+"population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population"
+"figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1"
+"estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"9. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#ICD-10 Changes."

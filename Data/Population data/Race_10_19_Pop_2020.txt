@@ -1,0 +1,36 @@
+"Notes"	"Race"	"Race Code"	Population
+	"American Indian or Alaska Native"	"1002-5"	772315
+	"Asian or Pacific Islander"	"A-PI"	2708592
+	"Black or African American"	"2054-5"	6920290
+	"White"	"2106-3"	31314155
+"Total"			41715352
+"---"
+"Dataset: Bridged-Race Population Estimates 1990-2020"
+"Query Parameters:"
+"Title: Race_10_19_Pop_2020"
+"Age Group: 10-14 years; 15-19 years"
+"Yearly July 1st Estimates: 2020"
+"Group By: Race"
+"Show Totals: True"
+"Show Zero Values: True"
+"Data Table: Default"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/bridged-race.html for more information."
+"---"
+"Query Date: Apr 25, 2022 3:19:09 AM"
+"---"
+"Suggested Citation: United States Department of Health and Human Services (US DHHS), Centers for Disease Control and Prevention"
+"(CDC), National Center for Health Statistics (NCHS), Bridged-Race Population Estimates, United States July 1st resident"
+"population by state, county, age, sex, bridged-race, and Hispanic origin. Compiled from 1990-1999 bridged-race intercensal"
+"population estimates (released by NCHS on 7/26/2004); revised bridged-race 2000-2009 intercensal population estimates (released"
+"by NCHS on 10/26/2012); and bridged-race Vintage 2020 (2010-2020) postcensal population estimates (released by NCHS on"
+"9/22/2021). Available on CDC WONDER Online Database. Accessed at http://wonder.cdc.gov/bridged-race-v2020.html on Apr 25, 2022"
+"3:19:09 AM"
+"---"
+Footnotes:
+"1. Estimates for 1990-1999 are bridged-race intercensal population estimates of the July 1 resident population. Estimates for"
+"2000-2009 are revised bridged-race intercensal estimates of the July 1 resident population. Estimates for 2010-2020 are"
+"bridged-race Vintage 2020 postcensal estimates of the July 1 resident population. These estimates were prepared by the Census"
+"Bureau in collaboration with NCHS."
+"---"
+Caveats:
