@@ -1,1 +1,1 @@
-from .plots.cdc_wonder import SuicideData
+from .data_loader.cdc_wonder import SuicideData

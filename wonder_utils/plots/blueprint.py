@@ -9,23 +9,9 @@ import os
 import abc
 from abc import ABC, abstractmethod
 
-
-class parent(ABC):
-    @abc.abstractproperty
-    def geeks(self):
-        return "parent class"
-
-
-class child(parent):
-    @property
-    def geeks(self):
-        return "child class"
-
-
 class DataPloter(ABC):
     """BluePrint for ploter class. Need to be supercharged with a data loader."""
 
-    @abc.abstractproperty
     def __init__(
         self,
         data_folder: str,

@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import os
 
-from .blueprint import DataPloter
+from ..plots.blueprint import DataPloter
 
 
 class SuicideData(DataPloter):
@@ -15,7 +15,7 @@ class SuicideData(DataPloter):
 
     The data pipeline works as following:"""
 
-    def __init(
+    def __init__(
         self,
         data_folder: str = "Data",
         indexer_columns: List[str] = [
@@ -43,7 +43,6 @@ class SuicideData(DataPloter):
         ],
     ) -> None:
 
-        print(reject_list)
         super(SuicideData, self).__init__(
             data_folder=data_folder,
             indexer_columns=indexer_columns,
