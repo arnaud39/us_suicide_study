@@ -169,15 +169,11 @@ class DataPloter(ABC):
         )
 
         # add pop_share
-        data_ = (
-            data_.assign(
-                pop_share=lambda x: 100.0
-                * x.population
-                / x.groupby(level=[1]).sum().population
-            )
-            .reset_index()
-            .set_index([color, x, by])
-        )
+        data_["pop_share"] = (
+            (100.0 * data_.population
+            / data_.groupby(level=[1, 2]).sum().population)
+                .reset_index()
+                .set_index([color, x, by]))
 
         return (
             data_,
