@@ -10,7 +10,9 @@ from ..plots.blueprint import DataPloter
 
 
 class SuicideData(DataPloter):
-    """Available features to plot: race, year, population, hhs, deaths, deaths_perc, ethnicity, ethno_race, age_strat.
+    """Available features to plot:
+    race, year, population, hhs, deaths, deaths_perc, ethnicity,
+    ethno_race, age_strat, ethno_race_4_cat
 
 
     The data pipeline works as following:"""
@@ -69,10 +71,12 @@ class SuicideData(DataPloter):
         Args:
             data_folder (str): where the data files are stored
             file (str): file that we want to process
-            rename_mapper (_type_, optional): dictionnary to rename the columns.
+            rename_mapper (_type_, optional): dictionnary to rename
+                the columns.
                 Defaults to {"Single Race 6": "race", "Race": "race",
                              "Residence HHS Region Code": "hhs",
-                             "HHS Region Code": "hhs", "Population": "population",
+                             "HHS Region Code": "hhs",
+                             "Population": "population",
                              "Year": "year", "Deaths": "deaths",
                              "Hispanic Origin": "ethnicity", }.
 
@@ -98,7 +102,8 @@ class SuicideData(DataPloter):
         """Process dataframes: convert columns dtype, compute new features.
         Args:
             x (pd.DataFrame): dataframe that we want to process
-            force_numeric (List[str], optional): force these columns into numerical columns.
+            force_numeric (List[str], optional): force these columns
+                into numerical columns.
                 Defaults to ["population", "Crude Rate"].
 
         Returns:
@@ -143,9 +148,15 @@ class SuicideData(DataPloter):
 
         x = x.loc[
             ~pd.concat(
-                [x.eq(forbidden).any(axis=1) for forbidden in self.reject_list], axis=1
+                [x.eq(forbidden).any(axis=1)
+                 for forbidden in self.reject_list], axis=1
             ).any(axis=1)
         ]
+
+        x["ethno_race_4_cat"] = (x[["race", "ethnicity"]]
+                                 .apply(lambda y: "Hispanic"
+                                        if y.ethnicity == "Hispanic"
+                                        else f"Non-hispanic {y.race}", axis=1))
 
         return x.assign(ethno_race=lambda x: x.race + " " + x.ethnicity)
 
@@ -158,14 +169,14 @@ class SuicideData(DataPloter):
         rewritten for other projects.
 
         Args:
-            drop_cols (List[str], optional): Select what columns should be dropped.
-                Defaults to [].
-            identifier (str, optional): used to identify which files should be process.
-                Defaults to "Data".
+            drop_cols (List[str], optional): Select what columns
+                should be dropped. Defaults to [].
+            identifier (str, optional): used to identify which files
+                should be process. Defaults to "Data".
 
         Returns:
-            Dict[str, pd.DataFrame]: dictionnary containing specific name of files and its
-                associated dataframe.
+            Dict[str, pd.DataFrame]: dictionnary containing specific
+                name of files and its associated dataframe.
         """
         available_files = os.listdir("data")
         raw_data = [file for file in available_files if identifier in file]
