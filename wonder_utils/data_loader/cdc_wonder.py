@@ -10,7 +10,7 @@ from ..plots.blueprint import DataPloter
 
 
 class SuicideData(DataPloter):
-    """Available features to plot: race, year, population, hhs, deaths, deaths_perc, etchnicity, ethno_race, age_strat.
+    """Available features to plot: race, year, population, hhs, deaths, deaths_perc, ethnicity, ethno_race, age_strat.
 
 
     The data pipeline works as following:"""

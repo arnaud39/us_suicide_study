@@ -9,8 +9,10 @@ import os
 import abc
 from abc import ABC, abstractmethod
 
+
 class DataPloter(ABC):
-    """BluePrint for ploter class. Need to be supercharged with a data loader."""
+    """BluePrint for ploter class.
+    Need to be supercharged with a data loader."""
 
     def __init__(
         self,
@@ -79,12 +81,12 @@ class DataPloter(ABC):
         self,
         data_slice: Dict[str, Any] = dict(),
     ) -> pd.DataFrame:
-        """Will merge and select data from the data attribute. User can perform a
-        request with dictionnaries and slice.
+        """Will merge and select data from the data attribute.
+        User can perform a request with dictionnaries and slice.
 
         Args:
-            data_slice (Dict[str, Any], optional): slice to filter the dataframe.
-                Defaults to dict().
+            data_slice (Dict[str, Any], optional): slice to filter
+                the dataframe. Defaults to dict().
 
         Returns:
             pd.DataFrame: merge and filtered dataframe
@@ -117,9 +119,12 @@ class DataPloter(ABC):
             df (pd.DataFrame): multi-index dataframe
 
         Returns:
-            pd.DataFrame: pointer to the slice of the initial dataframe (not a copy!)
+            pd.DataFrame: pointer to the slice of the initial dataframe
+            (not a copy!)
         """
-        return df.loc[(slice(None), slice(None), subpop)].sort_index().reset_index()
+        return (df.loc[(slice(None), slice(None), subpop)]
+                .sort_index()
+                .reset_index())
 
     def merge(
         self,
@@ -136,10 +141,14 @@ class DataPloter(ABC):
             x (str, optional): filter on x-axis. Defaults to "year".
             color (str, optional): filter for different plots.
                 Defaults to "age_strat".
-            by (str, optional): filter for multiple subplots. Defaults to "race".
-            data_slice (Dict[str, Any], optional): restriction on the initial dataset.
-                Defaults to { "hhs": slice("HHS1", "HHS4"), "age_strat": "20-64", }.
-                Can also be contain lists. Example: {"age_strat": ["10-19", "20-64", "20plus"]}
+            by (str, optional): filter for multiple subplots.
+                Defaults to "race".
+            data_slice (Dict[str, Any], optional): restriction on the
+                initial dataset.
+                Defaults to {"hhs": slice("HHS1", "HHS4"),
+                             "age_strat": "20-64", }.
+                Can also be contain lists.
+                Example: {"age_strat": ["10-19", "20-64", "20plus"]}
 
         Returns:
             pd.DataFrame: merged dataframe according to the filtering criteria
@@ -171,9 +180,9 @@ class DataPloter(ABC):
         # add pop_share
         data_["pop_share"] = (
             (100.0 * data_.population
-            / data_.groupby(level=[1, 2]).sum().population)
-                .reset_index()
-                .set_index([color, x, by]))
+             / data_.groupby(level=[1, 2]).sum().population)
+            .reset_index()
+            .set_index([color, x, by]))
 
         return (
             data_,
@@ -184,7 +193,8 @@ class DataPloter(ABC):
         self,
         s: Any,
     ) -> str:
-        """prettier string tranformation if type is slice, else convert the element to a string
+        """Prettier string tranformation if type is slice, else convert
+        the element to a string
 
         Args:
             s (Any): element in data_slice, used to filter a dataframe
@@ -214,14 +224,15 @@ class DataPloter(ABC):
             y (str, optional): value on the y-axis. Defaults to "deaths".
             color (str, optional): filter for different plots.
                 Defaults to "age_strat".
-            by (str, optional): filter for multiple subplots. Defaults to "race".
-            scatter (bool, optional): if True, only plot the dots and not the lines.
-                Defaults to False.
-            rows (int, optional): number of rows for the subplots. The number of columns is
-                is calculated in function of the number of subplots and the number of rows.
-                Defaults to 2.
-            data_slice (Dict[str, Any], optional): restriction on the initial dataset.
-                Defaults to dict().
+            by (str, optional): filter for multiple subplots.
+                Defaults to "race".
+            scatter (bool, optional): if True, only plot the dots
+                and not the lines. Defaults to False.
+            rows (int, optional): number of rows for the subplots.
+                The number of columns is is calculated in function of the
+                number of subplots and the number of rows. Defaults to 2.
+            data_slice (Dict[str, Any], optional): restriction on the
+                initial dataset. Defaults to dict().
             second_y (Dict[str, Any], optional): Optional secondary y-axis with
                 some parameters that can be provided. See example below.
                 Defaults to dict().
@@ -241,7 +252,8 @@ class DataPloter(ABC):
                     -> Force the first y-axis title
                         "y_title_text": "Crude suicide rate (per 100k)",
                     -> Force the secondary y-axis title
-                        "second_y_title_text": "% of the population in this age group",
+                        "second_y_title_text": "% of the population in this
+                                                age group",
                     -> Force the legend title
                         "legend_text": "Race",
                     -> Force the by_list
@@ -260,7 +272,8 @@ class DataPloter(ABC):
         by_list = kwargs.get("by_list", by_list)
 
         # adjust the number of cols for the plot
-        cols = len(by_list) // rows + 1 if len(by_list) % rows else len(by_list) // rows
+        cols = (len(by_list) // rows + 1 if len(by_list) % rows
+                else len(by_list) // rows)
 
         # add a secondary y-axis to the fig if there is another y-axis
         secondary_y = True if second_y.get("secondary_y") else False
@@ -313,7 +326,8 @@ class DataPloter(ABC):
                                 name=c,
                                 showlegend=showlegend,
                                 mode=mode,
-                                line=dict(**second_y.get("line_param", dict())),
+                                line=dict(**second_y.get("line_param",
+                                                         dict())),
                             )
                         ),
                         row=(1 + i // cols),
@@ -325,11 +339,13 @@ class DataPloter(ABC):
         self.relabel_fig(fig)
 
         # change the text if there are two y-axis
-        y_text = "{}{}".format(y, f" and {secondary_y_label}" if second_y else "")
+        y_text = ("{}{}".format(y, f" and {secondary_y_label}" if second_y
+                  else ""))
         # slice text in the plot title (if there is at least a slice)
-        slice_list = [f"{it[0]}: {self.s_print(it[1])}" for it in data_slice.items()]
+        slice_list = [f"{it[0]}: {self.s_print(it[1])}"
+                      for it in data_slice.items()]
         slice_text = ", ".join(slice_list)
-        
+
         # title of the plot & legend title
         title_text = None if kwargs.get("hide_title") else (
             "{}Evolution of {} by {}<br>{}".format(
@@ -349,7 +365,9 @@ class DataPloter(ABC):
         if kwargs.get("range_dic"):
             ranges = kwargs.get("range_dic")
             # select yaxis without overlaying keyword (=secondary y-axis)
-            y_axis_list = [key for key in fig["layout"] if ("yaxis" in key) and not(fig["layout"][key]["overlaying"])]
+            y_axis_list = [key for key in fig["layout"]
+                           if ("yaxis" in key)
+                           and not(fig["layout"][key]["overlaying"])]
             y_axis_list.sort()
             for key, range_y in zip(y_axis_list, ranges):
                 fig.update_layout({key: {"range": range_y}})
@@ -363,7 +381,8 @@ class DataPloter(ABC):
             gridwidth=0.1,
             gridcolor="grey",
         )
-        y_title_text = kwargs.get("y_title_text", y)  # y-axis name, default to y
+        # y-axis name, default to y
+        y_title_text = kwargs.get("y_title_text", y)
         fig.update_yaxes(
             showline=True,
             linewidth=0.1,
@@ -373,7 +392,7 @@ class DataPloter(ABC):
             secondary_y=False,
             title_text=y_title_text,
         )
-        
+
         # second y-axis name, default to secondary_y_label
         second_y_title_text = kwargs.get("second_y_title_text",
                                          secondary_y_label)
@@ -390,8 +409,8 @@ class DataPloter(ABC):
                 ticksuffix=kwargs.get("secondary_ticksuffix"),
             )
         # name of the file (different text if there are two y-axis)
-        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y 
-                                                              else "")
+        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y
+                               else "")
         # save image
         fig.write_image("outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
                                                                   by, color))
