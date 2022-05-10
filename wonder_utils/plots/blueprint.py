@@ -206,6 +206,7 @@ class DataPloter(ABC):
         rows: int = 2,
         data_slice: Dict[str, Any] = dict(),
         second_y: Dict[str, Any] = dict(),
+        **kwargs,
     ) -> None:
         """
         Args:
@@ -228,11 +229,35 @@ class DataPloter(ABC):
                 Example: second_y = {"secondary_y": True,
                                      "y": "suicide_per_100k",
                                      "line_param": {"dash": "dot"}}
+            **kwargs (Dict[str, Any], optional): add more keyword arguments
+                for specific plots.
+                Example:
+                    -> Scale all the secondary axis
+                        "secondary_range": [0, 100],
+                    -> add a ticksuffix on the secondary y-axis
+                        "secondary_ticksuffix": "%",
+                    -> don't show the plot title
+                        "hide_title": True,
+                    -> Force the first y-axis title
+                        "y_title_text": "Crude suicide rate (per 100k)",
+                    -> Force the secondary y-axis title
+                        "second_y_title_text": "% of the population in this age group",
+                    -> Force the legend title
+                        "legend_text": "Race",
+                    -> Force the by_list
+                       (so that the subplots appear in a particular order)
+                        "by_list": ["Overall", "10-19", "20-64", "65plus"],
+                    -> Force the range of the first y-axis for each subplots
+                        "range_dic": [[0, 18], [0, 9], [0, 22], [0, 22]]}
         """
 
         processed_data, by_list = self.merge(
             x=x, color=color, by=by, data_slice=data_slice
         )
+
+        # force by_list if provided in kwargs (to force the plots to appear)
+        # in a particular order
+        by_list = kwargs.get("by_list", by_list)
 
         # adjust the number of cols for the plot
         cols = len(by_list) // rows + 1 if len(by_list) % rows else len(by_list) // rows
@@ -251,7 +276,9 @@ class DataPloter(ABC):
             specs=specs,
         )
 
+        # change mode according to the scatter parameter
         mode = "markers" if scatter else "markers+lines"
+        # add the plots
         for i, subpop in enumerate(by_list):
             sub_df = self.selection(subpop, processed_data).sort_values(by=[x])
 
@@ -294,23 +321,40 @@ class DataPloter(ABC):
                         secondary_y=secondary_y,
                     )
 
+        # relabel to add colors
         self.relabel_fig(fig)
 
-        # text if two y
+        # change the text if there are two y-axis
         y_text = "{}{}".format(y, f" and {secondary_y_label}" if second_y else "")
         # slice text in the plot title (if there is at least a slice)
         slice_list = [f"{it[0]}: {self.s_print(it[1])}" for it in data_slice.items()]
         slice_text = ", ".join(slice_list)
-        fig.update_layout(
-            title_text="{}Evolution of {} by {}<br>{}".format(
+        
+        # title of the plot & legend title
+        title_text = None if kwargs.get("hide_title") else (
+            "{}Evolution of {} by {}<br>{}".format(
                 "Temporal " if x == "year" else "", y_text, by, slice_text
-            ),
+            ))
+        legend_title = kwargs.get("legend_text", color)  # default: color
+        # update layout
+        fig.update_layout(
+            title_text=title_text,
             xaxis_title=x,
-            legend_title=by,
-            height=330 * rows,
-            width=400 * cols,
+            legend_title=legend_title,
+            height=400 * rows,
+            width=600 * cols,
             plot_bgcolor="rgb(255,255,255)",
         )
+        # update range of the different axis if a list of ranges is provided
+        if kwargs.get("range_dic"):
+            ranges = kwargs.get("range_dic")
+            # select yaxis without overlaying keyword (=secondary y-axis)
+            y_axis_list = [key for key in fig["layout"] if ("yaxis" in key) and not(fig["layout"][key]["overlaying"])]
+            y_axis_list.sort()
+            for key, range_y in zip(y_axis_list, ranges):
+                fig.update_layout({key: {"range": range_y}})
+
+        # update axes
         fig.update_xaxes(
             tickangle=-45,
             showline=True,
@@ -319,6 +363,7 @@ class DataPloter(ABC):
             gridwidth=0.1,
             gridcolor="grey",
         )
+        y_title_text = kwargs.get("y_title_text", y)  # y-axis name, default to y
         fig.update_yaxes(
             showline=True,
             linewidth=0.1,
@@ -326,8 +371,12 @@ class DataPloter(ABC):
             gridwidth=0.1,
             gridcolor="grey",
             secondary_y=False,
-            title_text=y,
+            title_text=y_title_text,
         )
+        
+        # second y-axis name, default to secondary_y_label
+        second_y_title_text = kwargs.get("second_y_title_text",
+                                         secondary_y_label)
         if secondary_y:  # update also the secondary y_axis
             fig.update_yaxes(
                 showline=True,
@@ -336,11 +385,15 @@ class DataPloter(ABC):
                 gridwidth=0.1,
                 gridcolor="grey",
                 secondary_y=True,
-                title_text=secondary_y_label,
+                title_text=second_y_title_text,
+                range=kwargs.get("secondary_range"),
+                ticksuffix=kwargs.get("secondary_ticksuffix"),
             )
-        # text if two y
-        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y else "")
+        # name of the file (different text if there are two y-axis)
+        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y 
+                                                              else "")
         # save image
-        fig.write_image("outputs/{}_{}_by_{}_color_{}.png".format(y_text, x, by, color))
+        fig.write_image("outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
+                                                                  by, color))
         # show fig
         fig.show()

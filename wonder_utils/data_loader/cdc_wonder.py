@@ -177,7 +177,7 @@ class SuicideData(DataPloter):
 
         age_strats = set(
             key[0] for key in data.keys()
-        )  # {'10-19', '20plus', 'Overall'}
+        )  # {'10-19', '20plus', '20-64', '65plus', 'Overall'}
 
         dataframes = {
             age_strat: pd.concat(
