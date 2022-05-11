@@ -11,8 +11,8 @@ from ..plots.blueprint import DataPloter
 
 class SuicideData(DataPloter):
     """Available features to plot:
-    race, year, population, hhs, deaths, deaths_perc, ethnicity,
-    ethno_race, age_strat, ethno_race_4_cat
+    race, year, population, hhs, deaths, suicide_proportion, ethnicity,
+    ethno_race, age_strat, ethno_race_4_cat, gender
 
 
     The data pipeline works as following:"""
@@ -22,7 +22,7 @@ class SuicideData(DataPloter):
         data_folder: str = "Data",
         indexer_columns: List[str] = [
             "hhs",
-            "State",
+            "gender",
             "year",
             "race",
             "ethnicity",
@@ -31,7 +31,7 @@ class SuicideData(DataPloter):
         ],
         drop_cols: List[str] = [
             "Year Code",
-            "State Code",
+            "Gender Code",
             "HHS Region",
             "Race Code",
             "Crude Rate",
@@ -59,6 +59,7 @@ class SuicideData(DataPloter):
         rename_mapper: Dict[str, str] = {
             "Single Race 6": "race",
             "Race": "race",
+            "Gender": "gender",
             "Residence HHS Region Code": "hhs",
             "HHS Region Code": "hhs",
             "Population": "population",
@@ -73,7 +74,9 @@ class SuicideData(DataPloter):
             file (str): file that we want to process
             rename_mapper (_type_, optional): dictionnary to rename
                 the columns.
-                Defaults to {"Single Race 6": "race", "Race": "race",
+                Defaults to {"Single Race 6": "race",
+                             "Race": "race",
+                             "Gender": "gender",
                              "Residence HHS Region Code": "hhs",
                              "HHS Region Code": "hhs",
                              "Population": "population",

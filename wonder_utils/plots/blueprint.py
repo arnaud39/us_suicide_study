@@ -177,6 +177,18 @@ class DataPloter(ABC):
             .set_index([color, x, by])
         )
 
+        # add suicide_proportion
+        data_ = (
+            data_.set_index([color, x, by])[["deaths", "population"]]
+            .groupby(level=[0, 1, 2])
+            .sum()
+            .assign(
+                suicide_proportion=lambda x: 100.0 * x.deaths / x.population,
+            )
+            .reset_index()
+            .set_index([color, x, by])
+        )
+
         # add pop_share
         data_["pop_share"] = (
             (100.0 * data_.population
@@ -245,6 +257,8 @@ class DataPloter(ABC):
                 Example:
                     -> Scale all the secondary axis
                         "secondary_range": [0, 100],
+                    -> add a ticksuffix on the primary y-axis
+                        "primary_ticksuffix": "%",
                     -> add a ticksuffix on the secondary y-axis
                         "secondary_ticksuffix": "%",
                     -> don't show the plot title
@@ -261,6 +275,8 @@ class DataPloter(ABC):
                         "by_list": ["Overall", "10-19", "20-64", "65plus"],
                     -> Force the range of the first y-axis for each subplots
                         "range_dic": [[0, 18], [0, 9], [0, 22], [0, 22]]}
+                    -> Force the name of the figure
+                        "plot_filename": "image1"
         """
 
         processed_data, by_list = self.merge(
@@ -360,6 +376,7 @@ class DataPloter(ABC):
             height=400 * rows,
             width=600 * cols,
             plot_bgcolor="rgb(255,255,255)",
+            legend={"x": 1.15},
         )
         # update range of the different axis if a list of ranges is provided
         if kwargs.get("range_dic"):
@@ -391,6 +408,7 @@ class DataPloter(ABC):
             gridcolor="grey",
             secondary_y=False,
             title_text=y_title_text,
+            ticksuffix=kwargs.get("primary_ticksuffix"),
         )
 
         # second y-axis name, default to secondary_y_label
@@ -412,7 +430,11 @@ class DataPloter(ABC):
         y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y
                                else "")
         # save image
-        fig.write_image("outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
-                                                                  by, color))
+        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
+                                                             by, color)
+        # if filename forced, change it
+        if kwargs.get("plot_filename"):
+            filename = kwargs.get("plot_filename") + ".png"
+        fig.write_image(filename)
         # show fig
         fig.show()
