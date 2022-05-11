@@ -179,7 +179,7 @@ class DataPloter(ABC):
 
         # add suicide_proportion
         data_ = (
-            data_.set_index([color, x, by])[["deaths", "population"]]
+            data_
             .groupby(level=[0, 1, 2])
             .sum()
             .assign(
@@ -408,7 +408,7 @@ class DataPloter(ABC):
             gridcolor="grey",
             secondary_y=False,
             title_text=y_title_text,
-            ticksuffix=kwargs.get("primary_ticksuffix"),
+            ticksuffix=kwargs.get("primary_ticksuffix", ""),
         )
 
         # second y-axis name, default to secondary_y_label
@@ -424,7 +424,7 @@ class DataPloter(ABC):
                 secondary_y=True,
                 title_text=second_y_title_text,
                 range=kwargs.get("secondary_range"),
-                ticksuffix=kwargs.get("secondary_ticksuffix"),
+                ticksuffix=kwargs.get("secondary_ticksuffix", ""),
             )
         # name of the file (different text if there are two y-axis)
         y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y

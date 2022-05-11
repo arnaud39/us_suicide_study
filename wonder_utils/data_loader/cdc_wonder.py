@@ -10,10 +10,13 @@ from ..plots.blueprint import DataPloter
 
 
 class SuicideData(DataPloter):
-    """Available features to plot:
-    race, year, population, hhs, deaths, suicide_proportion, ethnicity,
-    ethno_race, age_strat, ethno_race_4_cat, gender
+    """
+    Available features to select:
+        race, year, hhs, ethnicity population, ethno_race, age_strat,
+        ethno_race_4_cat, gender
 
+    Available features to plot:
+        deaths, suicide_proportion, suicide_per_100k, age_adjusted_rate
 
     The data pipeline works as following:"""
 
@@ -28,6 +31,7 @@ class SuicideData(DataPloter):
             "ethnicity",
             "age_strat",
             "ethno_race",
+            "ethno_race_4_cat",
         ],
         drop_cols: List[str] = [
             "Year Code",
@@ -66,6 +70,7 @@ class SuicideData(DataPloter):
             "Year": "year",
             "Deaths": "deaths",
             "Hispanic Origin": "ethnicity",
+            "Age Adjusted Rate": "age_adjusted_rate",
         },
     ) -> pd.DataFrame:
         """CDC Wonder txt file into dataframe
@@ -81,7 +86,8 @@ class SuicideData(DataPloter):
                              "HHS Region Code": "hhs",
                              "Population": "population",
                              "Year": "year", "Deaths": "deaths",
-                             "Hispanic Origin": "ethnicity", }.
+                             "Hispanic Origin": "ethnicity",
+                             "Age Adjusted Rate": "age_adjusted_rate",}.
 
         Returns:
             pd.DataFrame: converted file into a pandas dataframe
@@ -100,14 +106,16 @@ class SuicideData(DataPloter):
     def processor(
         self,
         x: pd.DataFrame,
-        force_numeric: List[str] = ["population", "Crude Rate"],
+        force_numeric: List[str] = ["population", "Crude Rate",
+                                    "Age Adjusted Rate"],
     ) -> pd.DataFrame:
         """Process dataframes: convert columns dtype, compute new features.
         Args:
             x (pd.DataFrame): dataframe that we want to process
             force_numeric (List[str], optional): force these columns
                 into numerical columns.
-                Defaults to ["population", "Crude Rate"].
+                Defaults to ["population", "Crude Rate",
+                             "Age Adjusted Rate"].
 
         Returns:
             pd.DataFrame: processed dataframe
@@ -210,7 +218,7 @@ class SuicideData(DataPloter):
 
         age_strats = set(
             key[0] for key in data.keys()
-        )  # {'10-19', '20plus', '20-64', '65plus', 'Overall'}
+        )  # {'10-19', 'Overall', ...}
 
         dataframes = {
             age_strat: pd.concat(
