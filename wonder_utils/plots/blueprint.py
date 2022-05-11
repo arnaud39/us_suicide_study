@@ -167,7 +167,8 @@ class DataPloter(ABC):
 
         # add suicide_per_100k, groupby multi-index
         data_ = (
-            data_.set_index([color, x, by])[["deaths", "population"]]
+            data_.set_index([color, x, by])[["deaths", "population",
+                                             "age_adjusted_rate"]]
             .groupby(level=[0, 1, 2])
             .sum()
             .assign(
@@ -373,8 +374,8 @@ class DataPloter(ABC):
             title_text=title_text,
             xaxis_title=x,
             legend_title=legend_title,
-            height=400 * rows,
-            width=600 * cols,
+            height=500 * rows,
+            width=700 * cols,
             plot_bgcolor="rgb(255,255,255)",
             legend={"x": 1.15},
         )

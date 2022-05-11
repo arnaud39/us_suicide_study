@@ -99,23 +99,25 @@ class SuicideData(DataPloter):
             for line in iter(lambda: f.readline().rstrip(), '"---"'):
                 lines.append(process_line(line))
         # column is on the header, remove corner named notes
-        return pd.DataFrame(lines[1:], columns=lines[0][1:]).rename(
+        res = pd.DataFrame(lines[1:], columns=lines[0][1:]).rename(
             columns=rename_mapper
         )
+        # If Age Adjusted Rate is missing, fill with NaN
+        if "age_adjusted_rate" not in res.columns:
+            res["age_adjusted_rate"] = np.nan
+        return res
 
     def processor(
         self,
         x: pd.DataFrame,
-        force_numeric: List[str] = ["population", "Crude Rate",
-                                    "Age Adjusted Rate"],
+        force_numeric: List[str] = ["population", "Crude Rate"],
     ) -> pd.DataFrame:
         """Process dataframes: convert columns dtype, compute new features.
         Args:
             x (pd.DataFrame): dataframe that we want to process
             force_numeric (List[str], optional): force these columns
                 into numerical columns.
-                Defaults to ["population", "Crude Rate",
-                             "Age Adjusted Rate"].
+                Defaults to ["population", "Crude Rate"].
 
         Returns:
             pd.DataFrame: processed dataframe
