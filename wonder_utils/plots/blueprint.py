@@ -122,9 +122,7 @@ class DataPloter(ABC):
             pd.DataFrame: pointer to the slice of the initial dataframe
             (not a copy!)
         """
-        return (df.loc[(slice(None), slice(None), subpop)]
-                .sort_index()
-                .reset_index())
+        return df.loc[(slice(None), slice(None), subpop)].sort_index().reset_index()
 
     def merge(
         self,
@@ -135,6 +133,7 @@ class DataPloter(ABC):
             "hhs": slice("HHS1", "HHS4"),
             "age_strat": "20-64",
         },
+        partition: List[str] = ["25-64", "25plus"],
     ) -> pd.DataFrame:
         """
         Args:
@@ -154,9 +153,7 @@ class DataPloter(ABC):
             pd.DataFrame: merged dataframe according to the filtering criteria
         """
 
-        # if nothing about age is specified then we take the Overall
-        if "age_strat" not in [x, color, by, *data_slice.keys()]:
-            data_slice.update({"age_strat": "Overall"})
+        # if nothing about age is specified then we take the Overall and the adjusted
 
         data_ = self.select_data(data_slice=data_slice)
         # get the list of values by
@@ -165,23 +162,61 @@ class DataPloter(ABC):
         by_list = [k for k in by_list if k not in self.reject_list]
         by_list.sort()
 
-        # add suicide_per_100k, groupby multi-index
-        data_ = (
-            data_.set_index([color, x, by])[["deaths", "population",
-                                             "age_adjusted_rate"]]
-            .groupby(level=[0, 1, 2])
-            .sum()
-            .assign(
-                suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+        if "age_strat" not in [x, color, by, *data_slice.keys()]:
+
+            partition = ["25-64", "25plus"]
+
+            data_ = (
+                data_.set_index([color, x, by, "age_strat"])[
+                    ["deaths", "population", "age_adjusted_rate"]
+                ]
+                .groupby(level=[0, 1, 2, 3])
+                .sum()
+                .assign(
+                    suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                )
+                .reset_index()
+                .set_index([color, x, by, "age_strat"])
             )
-            .reset_index()
-            .set_index([color, x, by])
-        )
+
+            data_operation = data_.loc[slice(None), slice(None), slice(None), partition]
+
+            prob = (
+                (
+                    data_operation["deaths"].groupby(level=[1, 3]).sum()
+                    / data_operation["deaths"].groupby(level=[1]).sum()
+                )
+                .groupby(level=1)
+                .mean()
+            )
+
+            adj_deaths = (
+                (data_operation["deaths"] / prob * prob.apply(lambda x: x ** 2).sum())
+                .groupby(level=[0, 1, 2])
+                .sum()
+            )
+            data_ = data_.loc[slice(None), slice(None), slice(None), "Overall"].assign(
+                adj_deaths=adj_deaths
+            )
+        else:
+
+            # add suicide_per_100k, groupby multi-index
+            data_ = (
+                data_.set_index([color, x, by])[
+                    ["deaths", "population", "age_adjusted_rate"]
+                ]
+                .groupby(level=[0, 1, 2])
+                .sum()
+                .assign(
+                    suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                )
+                .reset_index()
+                .set_index([color, x, by])
+            )
 
         # add suicide_proportion
         data_ = (
-            data_
-            .groupby(level=[0, 1, 2])
+            data_.groupby(level=[0, 1, 2])
             .sum()
             .assign(
                 suicide_proportion=lambda x: 100.0 * x.deaths / x.population,
@@ -192,10 +227,10 @@ class DataPloter(ABC):
 
         # add pop_share
         data_["pop_share"] = (
-            (100.0 * data_.population
-             / data_.groupby(level=[1, 2]).sum().population)
+            (100.0 * data_.population / data_.groupby(level=[1, 2]).sum().population)
             .reset_index()
-            .set_index([color, x, by]))
+            .set_index([color, x, by])
+        )
 
         return (
             data_,
@@ -289,8 +324,7 @@ class DataPloter(ABC):
         by_list = kwargs.get("by_list", by_list)
 
         # adjust the number of cols for the plot
-        cols = (len(by_list) // rows + 1 if len(by_list) % rows
-                else len(by_list) // rows)
+        cols = len(by_list) // rows + 1 if len(by_list) % rows else len(by_list) // rows
 
         # add a secondary y-axis to the fig if there is another y-axis
         secondary_y = True if second_y.get("secondary_y") else False
@@ -343,8 +377,7 @@ class DataPloter(ABC):
                                 name=c,
                                 showlegend=showlegend,
                                 mode=mode,
-                                line=dict(**second_y.get("line_param",
-                                                         dict())),
+                                line=dict(**second_y.get("line_param", dict())),
                             )
                         ),
                         row=(1 + i // cols),
@@ -356,18 +389,21 @@ class DataPloter(ABC):
         self.relabel_fig(fig)
 
         # change the text if there are two y-axis
-        y_text = ("{}{}".format(y, f" and {secondary_y_label}" if second_y
-                  else ""))
+        y_text = "{}{}".format(y, f" and {secondary_y_label}" if second_y else "")
         # slice text in the plot title (if there is at least a slice)
-        slice_list = [f"{it[0]}: {self.s_print(it[1])}"
-                      for it in data_slice.items()]
+        slice_list = [f"{it[0]}: {self.s_print(it[1])}" for it in data_slice.items()]
         slice_text = ", ".join(slice_list)
 
         # title of the plot & legend title
-        title_text = None if kwargs.get("hide_title") else (
-            "{}Evolution of {} by {}<br>{}".format(
-                "Temporal " if x == "year" else "", y_text, by, slice_text
-            ))
+        title_text = (
+            None
+            if kwargs.get("hide_title")
+            else (
+                "{}Evolution of {} by {}<br>{}".format(
+                    "Temporal " if x == "year" else "", y_text, by, slice_text
+                )
+            )
+        )
         legend_title = kwargs.get("legend_text", color)  # default: color
         # update layout
         fig.update_layout(
@@ -383,9 +419,11 @@ class DataPloter(ABC):
         if kwargs.get("range_dic"):
             ranges = kwargs.get("range_dic")
             # select yaxis without overlaying keyword (=secondary y-axis)
-            y_axis_list = [key for key in fig["layout"]
-                           if ("yaxis" in key)
-                           and not(fig["layout"][key]["overlaying"])]
+            y_axis_list = [
+                key
+                for key in fig["layout"]
+                if ("yaxis" in key) and not (fig["layout"][key]["overlaying"])
+            ]
             y_axis_list.sort()
             for key, range_y in zip(y_axis_list, ranges):
                 fig.update_layout({key: {"range": range_y}})
@@ -413,8 +451,7 @@ class DataPloter(ABC):
         )
 
         # second y-axis name, default to secondary_y_label
-        second_y_title_text = kwargs.get("second_y_title_text",
-                                         secondary_y_label)
+        second_y_title_text = kwargs.get("second_y_title_text", secondary_y_label)
         if secondary_y:  # update also the secondary y_axis
             fig.update_yaxes(
                 showline=True,
@@ -428,11 +465,9 @@ class DataPloter(ABC):
                 ticksuffix=kwargs.get("secondary_ticksuffix", ""),
             )
         # name of the file (different text if there are two y-axis)
-        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y
-                               else "")
+        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y else "")
         # save image
-        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
-                                                             by, color)
+        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x, by, color)
         # if filename forced, change it
         if kwargs.get("plot_filename"):
             filename = kwargs.get("plot_filename") + ".png"
