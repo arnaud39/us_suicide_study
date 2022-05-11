@@ -139,6 +139,7 @@ class SuicideData(DataPloter):
                 "Asian or Pacific Islander": "API",
                 "Asian": "API",
                 "Black or African American": "Black",
+                "Native Hawaiian or Other Pacific Islander": "API",
             }
         )
 
@@ -153,10 +154,28 @@ class SuicideData(DataPloter):
             ).any(axis=1)
         ]
 
+        def create_ethno_4_cat(
+            y: pd.Series
+        ) -> str:
+            """based on ethinicty and race, create a ethno-race feature
+            with only 4 categories (or 3 if the only races are Black and White)
+
+            Args:
+                y (pd.Series): single line series to create
+                the feature
+
+            Returns:
+                str: ethno-race feature
+            """
+            if y.ethnicity == "Hispanic":
+                return "Hispanic"
+            if y.race in ("Black", "White"):
+                return f"Non-hispanic {y.race}"
+            return "Non-hispanic Others"
+
         x["ethno_race_4_cat"] = (x[["race", "ethnicity"]]
-                                 .apply(lambda y: "Hispanic"
-                                        if y.ethnicity == "Hispanic"
-                                        else f"Non-hispanic {y.race}", axis=1))
+                                 .apply(lambda y: create_ethno_4_cat(y),
+                                        axis=1))
 
         return x.assign(ethno_race=lambda x: x.race + " " + x.ethnicity)
 

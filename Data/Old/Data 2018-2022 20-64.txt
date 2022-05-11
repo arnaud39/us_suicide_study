@@ -1,0 +1,748 @@
+"Notes"	"Residence HHS Region"	"Residence HHS Region Code"	"Residence State"	"Residence State Code"	"Year"	"Year Code"	"Single Race 6"	"Single Race 6 Code"	"Hispanic Origin"	"Hispanic Origin Code"	Deaths	Population	Crude Rate
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	20	227833	8.8
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	30	288047	10.4
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	263	1396405	18.8
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	31	231309	13.4
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	28	292376	9.6
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	265	1370642	19.3
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	20	234444	8.5
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	25	297130	8.4
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	210	1346619	15.6
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	15	234444	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	19	297130	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Connecticut"	"09"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	153	1346619	11.4
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Maine"	"23"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	180	728586	24.7
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Maine"	"23"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	193	724474	26.6
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Maine"	"23"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	153	721346	21.2
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Maine"	"23"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	154	721346	21.3
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	14	327098	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	33	313221	10.5
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	24	390423	6.1
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	497	2976358	16.7
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	15	330349	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	27	315727	8.6
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	31	394194	7.9
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	445	2940325	15.1
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	335717	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	19	318433	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	36	401225	9.0
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	386	2906940	13.3
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	15	335717	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	15	318433	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	18	401225	Unreliable
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Massachusetts"	"25"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	279	2906940	9.6
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"New Hampshire"	"33"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	206	734227	28.1
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"New Hampshire"	"33"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	182	730298	24.9
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"New Hampshire"	"33"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	173	727086	23.8
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"New Hampshire"	"33"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	122	727086	16.8
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Rhode Island"	"44"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	72	458622	15.7
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Rhode Island"	"44"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	89	452411	19.7
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Rhode Island"	"44"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	60	446256	13.4
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Rhode Island"	"44"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	68	446256	15.2
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Vermont"	"50"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	88	340549	25.8
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Vermont"	"50"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	78	336952	23.1
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Vermont"	"50"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	80	333322	24.0
+	"HHS Region #1  CT, ME, MA, NH, RI, VT"	"HHS1"	"Vermont"	"50"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	77	333322	23.1
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	36	564331	6.4
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	45	712992	6.3
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	74	921823	8.0
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	447	2851266	15.7
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	41	560257	7.3
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	58	710590	8.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	67	925775	7.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	423	2803229	15.1
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	36	563090	6.4
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	48	712415	6.7
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	48	933431	5.1
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	344	2759286	12.5
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	563090	Unreliable
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	41	712415	5.8
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	49	933431	5.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New Jersey"	"34"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	285	2759286	10.3
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	75	1124525	6.7
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	12	361746	Unreliable
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	128	1759605	7.3
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	116	1694016	6.8
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	962	6409913	15.0
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2018"	"2018"	"White"	"2106-3"	"Not Stated"	"NS"	16	Not Applicable	Not Applicable
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	92	1119510	8.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	123	1740907	7.1
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	128	1688062	7.6
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	934	6310142	14.8
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2019"	"2019"	"White"	"2106-3"	"Not Stated"	"NS"	16	Not Applicable	Not Applicable
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	66	1112565	5.9
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	125	1722146	7.3
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	138	1680414	8.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	883	6205153	14.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	65	1112565	5.8
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	75	1722146	4.4
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	107	1680414	6.4
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	634	6205153	10.2
+	"HHS Region #2  NJ, NY"	"HHS2"	"New York"	"36"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	13	171042	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	12	127199	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	68	341928	19.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	75	338719	22.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	13	130772	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	79	337136	23.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	10	130772	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Delaware"	"10"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	55	337136	16.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	14	190408	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	26	193169	13.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	16	188297	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	13	195375	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	16	187079	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"District of Columbia"	"11"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	17	198433	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	20	254622	7.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	81	1113152	7.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	24	295313	8.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	350	1809533	19.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	23	254075	9.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	101	1115403	9.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	18	299835	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	346	1779764	19.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	13	254654	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	82	1120087	7.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	24	304520	7.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	287	1752393	16.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	75	1120087	6.7
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	19	304520	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Maryland"	"24"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	233	1752393	13.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	30	301560	9.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	94	833318	11.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	65	428983	15.2
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1321	5685018	23.2
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	33	307029	10.7
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	104	835186	12.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	46	439430	10.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1203	5613205	21.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	26	309064	8.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	108	835432	12.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	47	450489	10.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1061	5542738	19.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	21	309064	6.8
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	96	835432	11.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	40	450489	8.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Pennsylvania"	"42"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	847	5542738	15.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	35	377565	9.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	108	1002263	10.8
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	31	412898	7.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	743	3118599	23.8
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	24	377374	6.4
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	100	1001390	10.0
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	27	418008	6.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	666	3092154	21.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	13	103542	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	32	384622	8.3
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	121	1003072	12.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	39	429108	9.1
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	660	3075101	21.5
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	14	107630	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	22	384622	5.7
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	88	1003072	8.8
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	19	429108	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	490	3075101	15.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"Virginia"	"51"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	107630	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"West Virginia"	"54"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	286	957157	29.9
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"West Virginia"	"54"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	237	942191	25.2
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"West Virginia"	"54"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	12	39043	Unreliable
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"West Virginia"	"54"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	251	930283	27.0
+	"HHS Region #3  DE, DC, MD, PA, VA, WV"	"HHS3"	"West Virginia"	"54"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	190	930283	20.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	75	777316	9.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	12	96008	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	524	1854635	28.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	65	775423	8.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	10	97686	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	512	1846576	27.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	68	775314	8.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	15	99559	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	493	1841926	26.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	74	775314	9.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	10	99559	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Alabama"	"01"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	381	1841926	20.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	27	395738	6.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	14	169981	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	167	1989449	8.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	339	3117277	10.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1884	6243402	30.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	24	159561	15.0
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	37	395468	9.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	13	175312	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	169	2002275	8.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	332	3165051	10.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1836	6205866	29.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	165153	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	37	398197	9.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	12	181569	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	165	2019787	8.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	296	3232848	9.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1583	6201150	25.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	16	172017	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	19	398197	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	157	2019787	7.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	241	3232848	7.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1214	6201150	19.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Florida"	"12"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	17	172017	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	30	291753	10.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	207	2025870	10.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	37	482358	7.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	904	3264175	27.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	29	298268	9.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	220	2052082	10.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	55	493509	11.1
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	907	3252404	27.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	26	305046	8.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	238	2079500	11.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	52	505440	10.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	790	3241972	24.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	29	305046	9.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	223	2079500	10.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	53	505440	10.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Georgia"	"13"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	628	3241972	19.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	31	219065	14.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	13	81862	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	539	2215019	24.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	29	220333	13.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	540	2197274	24.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	33	221827	14.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	555	2183403	25.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	27	221827	12.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Kentucky"	"21"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	432	2183403	19.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	45	658313	6.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	246	962534	25.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	62	655226	9.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	256	953168	26.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	57	651735	8.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	236	943515	25.0
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	57	651735	8.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Mississippi"	"28"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	208	943515	22.0
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	14	208710	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	99	1343204	7.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	41	450701	9.1
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	948	3856114	24.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	20	212142	9.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	113	1352756	8.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	34	464812	7.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	834	3858325	21.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	20	220557	9.1
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	121	1361899	8.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	41	476342	8.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	881	3867808	22.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	14	220557	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	103	1361899	7.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	42	476342	8.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"North Carolina"	"37"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	575	3867808	14.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	70	802216	8.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	11	139707	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	513	1869038	27.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	95	803636	11.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	14	145086	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	511	1878628	27.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	86	804845	10.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	17	151016	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	533	1891293	28.2
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	64	804845	8.0
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	14	151016	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"South Carolina"	"45"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	349	1891293	18.5
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	81	689430	11.7
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	18	177818	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	762	2947535	25.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	86063	Unreliable
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	78	692911	11.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	23	182032	12.6
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	779	2954915	26.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	79	693833	11.4
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	27	188389	14.3
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	795	2964443	26.8
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	69	693833	9.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	30	188389	15.9
+	"HHS Region #4  AL, FL, GA, KY, MS, NC, SC, TN"	"HHS4"	"Tennessee"	"47"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	579	2964443	19.5
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	34	475820	7.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	95	1076466	8.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	90	1176330	7.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	941	4618738	20.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	34	473079	7.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	88	1068693	8.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	96	1181251	8.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	860	4540704	18.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	41	470782	8.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	116	1060865	10.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	79	1188041	6.6
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	757	4456888	17.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	12	94909	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	470782	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	113	1060865	10.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	86	1188041	7.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Illinois"	"17"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	590	4456888	13.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	48	375197	12.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	24	228510	10.5
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	759	3083852	24.6
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	52	381323	13.6
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	26	235940	11.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	652	3067607	21.3
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	59	386224	15.3
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	26	242411	10.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	652	3050478	21.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	12	114287	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	47	386224	12.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	20	242411	8.3
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Indiana"	"18"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	554	3050478	18.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	219728	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	106	815120	13.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	44	244598	18.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	940	4392634	21.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	16	98008	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	14	219296	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	106	811919	13.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	41	250966	16.3
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	913	4351917	21.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	16	101277	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	12	34991	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	16	217263	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	104	805764	12.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	41	258438	15.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	878	4306083	20.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	17	104583	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	93	805764	11.5
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	33	258438	12.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	635	4306083	14.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Michigan"	"26"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	12	104583	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	33970	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	20	179145	11.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	16	210708	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	12	145694	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	520	2630054	19.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	23	33842	68.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	28	182501	15.3
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	30	218229	13.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	12	149119	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	544	2609891	20.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	18	33880	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	19	185023	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	25	225863	11.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	15	152534	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	468	2587051	18.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	56307	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	33880	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	24	185023	13.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	19	225863	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	25	152534	16.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	373	2587051	14.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Minnesota"	"27"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	56307	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	13	186222	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	122	861750	14.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	27	210599	12.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1203	5372841	22.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	19	188907	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	112	863417	13.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	32	214253	14.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1165	5323576	21.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	105292	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	13	193765	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	125	865195	14.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	29	222107	13.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1049	5274088	19.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	10	193765	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	102	865195	11.8
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	30	222107	13.5
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Ohio"	"39"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	827	5274088	15.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	10	31164	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	11	109918	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	26	216528	12.0
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	16	192266	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	627	2779564	22.6
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	12	31221	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	20	217143	9.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	23	197846	11.6
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	556	2757756	20.2
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	10	31258	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	32	217538	14.7
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	26	201908	12.9
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	577	2737566	21.1
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	16	112314	Unreliable
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	27	217538	12.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	23	201908	11.4
+	"HHS Region #5  IL, IN, MI, MN, OH, WI"	"HHS5"	"Wisconsin"	"55"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	430	2737566	15.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	28	272658	10.3
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	13	114789	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	384	1244261	30.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	25	272251	9.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	381	1236679	30.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	38	271902	14.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	15	120461	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	371	1232111	30.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	10	33027	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	28	271902	10.3
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Arkansas"	"05"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	315	1232111	25.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	89	881221	10.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	431	1606687	26.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	78	877531	8.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	21	119048	17.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	430	1585271	27.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	79	874840	9.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	13	120702	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	388	1567617	24.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	72	874840	8.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	20	120702	16.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Louisiana"	"22"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	311	1567617	19.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	50	109551	45.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	135	540261	25.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	177	435132	40.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	47	110001	42.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	143	542084	26.4
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	162	427233	37.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	61	110405	55.3
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	10	25138	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	138	546364	25.3
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	149	421065	35.4
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	43	110405	38.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	122	546364	22.3
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"New Mexico"	"35"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	116	421065	27.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	49	189612	25.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	24	176176	13.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	28	192736	14.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	463	1498045	30.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	31	104716	29.6
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	53	191329	27.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	28	176653	15.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	34	197143	17.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	450	1488295	30.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	28	107123	26.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	64	193179	33.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	10	60449	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	41	178135	23.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	28	202450	13.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	474	1481607	32.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	28	109710	25.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	46	193179	23.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	28	178135	15.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	32	202450	15.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	359	1481607	24.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Oklahoma"	"40"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	22	109710	20.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	18	58399	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	92	938349	9.8
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	218	2137312	10.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	657	6134473	10.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	2007	7074864	28.4
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	191193	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	69	953360	7.2
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	228	2173780	10.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	681	6230873	10.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1940	7053827	27.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	12	198489	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	88	978624	9.0
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	246	2215202	11.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	792	6343473	12.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1835	7043883	26.1
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	207224	Unreliable
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	66	978624	6.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	210	2215202	9.5
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	616	6343473	9.7
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1472	7043883	20.9
+	"HHS Region #6  AR, LA, NM, OK, TX"	"HHS6"	"Texas"	"48"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	12	207224	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	12	93477	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	348	1536811	22.6
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	16	71411	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	13	95770	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	367	1523097	24.1
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	17	99786	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	381	1510683	25.2
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	14	74192	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Iowa"	"19"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	292	1510683	19.3
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	22	101036	21.8
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	28	169903	16.5
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	351	1263688	27.8
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	31967	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	20	100858	19.8
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	33	173473	19.0
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	316	1251575	25.2
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	19	100410	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	36	176673	20.4
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	327	1240616	26.4
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	34039	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	18	100410	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	33	176673	18.7
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Kansas"	"20"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	264	1240616	21.3
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	65	422519	15.4
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	20	124968	16.0
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	800	2829764	28.3
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	55201	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	11	86767	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	50	422226	11.8
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	26	127426	20.4
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	790	2813410	28.1
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	11	87761	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	66	418376	15.8
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	17	130778	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	765	2798971	27.3
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	58514	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	63	418376	15.1
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	15	130778	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Missouri"	"29"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	615	2798971	22.0
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	16	101544	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	173	869051	19.9
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	10	103192	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	213	861756	24.7
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	11	56147	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	10	106143	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	188	855144	22.0
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	10	106143	Unreliable
+	"HHS Region #7  IA, KS, MO, NE"	"HHS7"	"Nebraska"	"31"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	129	855144	15.1
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	11	24005	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	11	124376	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	29	146432	19.8
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	135	631716	21.4
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	788	2398915	32.8
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	12	64587	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	10	24371	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	14	128267	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	32	149356	21.4
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	155	646561	24.0
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	785	2405999	32.6
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	67191	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	24490	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	13	129250	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	37	151682	24.4
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	179	657163	27.2
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	703	2412485	29.1
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	70143	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	32	151682	21.1
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	131	657163	19.9
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	557	2412485	23.1
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Colorado"	"08"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	10	70143	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	13	34910	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	172	526344	32.7
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	20	34907	57.3
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	169	525422	32.2
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	29	35155	82.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	162	526859	30.7
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	23	35155	65.4
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Montana"	"30"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	145	526859	27.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	103	374105	27.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	91	370751	24.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	13	21413	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	89	367545	24.2
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	11	21413	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"North Dakota"	"38"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	76	367545	20.7
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	17	38056	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	97	407380	23.8
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	19	38043	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	101	405916	24.9
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	24	38100	63.0
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	100	404465	24.7
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	22	38100	57.7
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"South Dakota"	"46"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	68	404465	16.8
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	42	221337	19.0
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	451	1394253	32.3
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	11	18455	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	38	228722	16.6
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	444	1410564	31.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	53	234761	22.6
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	422	1430278	29.5
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	11	31860	Unreliable
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	21	234761	8.9
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Utah"	"49"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	358	1430278	25.0
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Wyoming"	"56"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	101	281319	35.9
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Wyoming"	"56"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	106	279149	38.0
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Wyoming"	"56"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	122	278273	43.8
+	"HHS Region #8  CO, MT, ND, SD, UT, WY"	"HHS8"	"Wyoming"	"56"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	89	278273	32.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	69	166361	41.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	12	162202	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	42	194334	21.6
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	148	1171283	12.6
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	686	2181366	31.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"White"	"2106-3"	"Not Stated"	"NS"	13	Not Applicable	Not Applicable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	20	68509	29.2
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	67	168122	39.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	15	165805	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	38	202414	18.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	173	1199619	14.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	667	2187196	30.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"White"	"2106-3"	"Not Stated"	"NS"	18	Not Applicable	Not Applicable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	23	72114	31.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	64	169489	37.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	15	170596	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	38	210880	18.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	165	1232707	13.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	640	2203004	29.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"White"	"2106-3"	"Not Stated"	"NS"	10	Not Applicable	Not Applicable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	21	76345	27.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	83	169489	49.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	19	170596	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	23	210880	10.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	128	1232707	10.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	478	2203004	21.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Arizona"	"04"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	22	76345	28.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	19	101361	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	304	3748517	8.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	158	1412162	11.2
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	11	93365	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	805	8280308	9.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1906	8767584	21.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	27	227072	11.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	78	550509	14.2
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	18	99910	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	290	3766145	7.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	181	1410196	12.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	14	93429	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	791	8307180	9.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1918	8588193	22.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	29	231472	12.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	75	561418	13.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	98588	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	283	3760650	7.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	164	1404466	11.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	15	93460	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	737	8338068	8.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1652	8393159	19.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"White"	"2106-3"	"Not Stated"	"NS"	10	Not Applicable	Not Applicable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	29	235986	12.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	73	571638	12.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	16	98588	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	225	3760650	6.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	133	1404466	9.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	610	8338068	7.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	1183	8393159	14.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	17	235986	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"California"	"06"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	60	571638	10.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	30	300912	10.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2018"	"2018"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	17	80271	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	42	191061	22.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	35	149297	23.4
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	32	297784	10.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2019"	"2019"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	19	79821	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	50	186080	26.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2019"	"2019"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	10	28798	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	43	149334	28.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	28	290975	9.6
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2020"	"2020"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	10	79203	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	37	182502	20.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2020"	"2020"	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	11	29367	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	47	149442	31.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	18	290975	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2021 (provisional)"	"2021"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	11	79203	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	37	182502	20.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Hawaii"	"15"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	39	149442	26.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	23	162906	14.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	27	169229	16.0
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	62	459638	13.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	341	876702	38.9
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	16	164670	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	27	174537	15.5
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	60	470372	12.8
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	335	874532	38.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	21	170641	12.3
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	29	180476	16.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	54	485189	11.1
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	285	871912	32.7
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	15	55058	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	17	170641	Unreliable
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	30	180476	16.6
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	66	485189	13.6
+	"HHS Region #9  AZ, CA, HI, NV"	"HHS9"	"Nevada"	"32"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	238	871912	27.3
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	38	60594	62.7
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	86	281264	30.6
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	55	60463	91.0
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	86	275791	31.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	56	60766	92.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	77	271877	28.3
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	15	23741	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	46	60766	75.7
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Alaska"	"02"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	58	271877	21.3
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	11377	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	21	108695	19.3
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	253	805593	31.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	16	113278	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	218	818085	26.6
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	24	117601	20.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	282	832610	33.9
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	18	117601	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Idaho"	"16"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	195	832610	23.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	13	133368	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	23	274324	8.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	522	1869719	27.9
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	15	135002	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	39	282058	13.8
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	560	1862127	30.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	18	71601	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	10	136229	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	42	290086	14.5
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	491	1855619	26.5
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	17	74370	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	28	290086	9.7
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	410	1855619	22.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Oregon"	"41"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	16	74370	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	26	58509	44.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	41	462587	8.9
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	23	189948	12.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	56	463777	12.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	719	3099000	23.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2018"	"2018"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	23	149522	15.4
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	14	58832	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	44	479817	9.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	25	196204	12.7
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	15	34794	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	62	475934	13.0
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	743	3086452	24.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2019"	"2019"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	28	155138	18.0
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	15	59117	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	45	494986	9.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	31	203453	15.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-2"	12	35540	Unreliable
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	74	494477	15.0
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	702	3076439	22.8
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2020"	"2020"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	34	161123	21.1
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-2"	20	59117	33.8
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"Asian"	"A"	"Not Hispanic or Latino"	"2186-2"	36	494986	7.3
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-2"	33	203453	16.2
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	49	494477	9.9
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-2"	458	3076439	14.9
+	"HHS Region #10  AK, ID, OR, WA"	"HHS10"	"Washington"	"53"	"2021 (provisional)"	"2021"	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-2"	26	161123	16.1
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"Five-Year Age Groups: 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years; 45-49 years; 50-54 years; 55-59 years;"
+"60-64 years"
+"UCD - Injury Intent: Suicide"
+"Group By: Residence HHS Region; Residence State; Year; Single Race 6; Hispanic Origin"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: May 4, 2022 3:29:32 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Provisional Multiple"
+"Cause of Death on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2020, and from"
+"provisional data for years 2021-2022, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital"
+"Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on May 4, 2022 3:29:32 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"3. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"4. Deaths of persons with Hispanic origin ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among"
+"Hispanic Origin groups, so are not included in the Hispanic Origin specific counts and rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"5. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the"
+"funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis"
+"of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin"
+"are inconsistent between these two data sources, death rates will be biased. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Racial Differences."
+"6. The population figures for years 2021 and 2020 are single-race estimates of the July 1 resident population, from the Vintage"
+"2020 postcensal series released by the Census Bureau on July 27, 2021. The population figures for year 2019 are single-race"
+"estimates of the July 1 resident population, from the Vintage 2019 postcensal series released by the Census Bureau on June 25,"
+"2020. The population figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by the Census Bureau on June 20, 2019."
+"7. Deaths occurring through March 19, 2022 as of April 03, 2022."
