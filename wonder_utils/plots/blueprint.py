@@ -215,15 +215,10 @@ class DataPloter(ABC):
             )
 
         # add suicide_proportion
-        data_ = (
-            data_.groupby(level=[0, 1, 2])
-            .sum()
-            .assign(
-                suicide_proportion=lambda x: 100.0 * x.deaths / x.population,
-            )
-            .reset_index()
-            .set_index([color, x, by])
-        )
+        data_["suicide_proportion"] = ((100 * data_.groupby(level=[0, 1, 2]).sum().deaths
+                                       / data_.groupby(level=[1, 2]).sum().deaths)
+                                       .reset_index()
+                                       .set_index([color, x, by]))
 
         # add pop_share
         data_["pop_share"] = (
