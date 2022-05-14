@@ -122,7 +122,9 @@ class DataPloter(ABC):
             pd.DataFrame: pointer to the slice of the initial dataframe
             (not a copy!)
         """
-        return df.loc[(slice(None), slice(None), subpop)].sort_index().reset_index()
+        return df.loc[(slice(None),
+                       slice(None),
+                       subpop)].sort_index().reset_index()
 
     def merge(
         self,
@@ -153,7 +155,8 @@ class DataPloter(ABC):
             pd.DataFrame: merged dataframe according to the filtering criteria
         """
 
-        # if nothing about age is specified then we take the Overall and the adjusted
+        # if nothing about age is specified
+        # then we take the Overall and the adjusted
 
         data_ = self.select_data(data_slice=data_slice)
         # get the list of values by
@@ -179,7 +182,8 @@ class DataPloter(ABC):
                 .set_index([color, x, by, "age_strat"])
             )
 
-            data_operation = data_.loc[slice(None), slice(None), slice(None), partition]
+            data_operation = data_.loc[slice(None), slice(None),
+                                       slice(None), partition]
 
             prob = (
                 (
@@ -195,7 +199,8 @@ class DataPloter(ABC):
                 .groupby(level=[0, 1, 2])
                 .sum()
             )
-            data_ = data_.loc[slice(None), slice(None), slice(None), "Overall"].assign(
+            data_ = data_.loc[slice(None), slice(None),
+                              slice(None), "Overall"].assign(
                 adj_deaths=adj_deaths
             )
         else:
@@ -222,7 +227,8 @@ class DataPloter(ABC):
 
         # add pop_share
         data_["pop_share"] = (
-            (100.0 * data_.population / data_.groupby(level=[1, 2]).sum().population)
+            (100.0 * data_.population
+             / data_.groupby(level=[1, 2]).sum().population)
             .reset_index()
             .set_index([color, x, by])
         )
@@ -319,7 +325,9 @@ class DataPloter(ABC):
         by_list = kwargs.get("by_list", by_list)
 
         # adjust the number of cols for the plot
-        cols = len(by_list) // rows + 1 if len(by_list) % rows else len(by_list) // rows
+        cols = (len(by_list) // rows + 1
+                if len(by_list) % rows
+                else len(by_list) // rows)
 
         # add a secondary y-axis to the fig if there is another y-axis
         secondary_y = True if second_y.get("secondary_y") else False
@@ -372,7 +380,8 @@ class DataPloter(ABC):
                                 name=c,
                                 showlegend=showlegend,
                                 mode=mode,
-                                line=dict(**second_y.get("line_param", dict())),
+                                line=dict(**second_y.get("line_param",
+                                                         dict())),
                             )
                         ),
                         row=(1 + i // cols),
@@ -384,9 +393,12 @@ class DataPloter(ABC):
         self.relabel_fig(fig)
 
         # change the text if there are two y-axis
-        y_text = "{}{}".format(y, f" and {secondary_y_label}" if second_y else "")
+        y_text = "{}{}".format(y,
+                               f" and {secondary_y_label}"
+                               if second_y else "")
         # slice text in the plot title (if there is at least a slice)
-        slice_list = [f"{it[0]}: {self.s_print(it[1])}" for it in data_slice.items()]
+        slice_list = [f"{it[0]}: {self.s_print(it[1])}"
+                      for it in data_slice.items()]
         slice_text = ", ".join(slice_list)
 
         # title of the plot & legend title
@@ -446,7 +458,8 @@ class DataPloter(ABC):
         )
 
         # second y-axis name, default to secondary_y_label
-        second_y_title_text = kwargs.get("second_y_title_text", secondary_y_label)
+        second_y_title_text = kwargs.get("second_y_title_text",
+                                         secondary_y_label)
         if secondary_y:  # update also the secondary y_axis
             fig.update_yaxes(
                 showline=True,
@@ -459,13 +472,17 @@ class DataPloter(ABC):
                 range=kwargs.get("secondary_range"),
                 ticksuffix=kwargs.get("secondary_ticksuffix", ""),
             )
-        # name of the file (different text if there are two y-axis)
-        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y else "")
+        # name of the file
+        # (different text if there are two y-axis)
+        y_text = "{}{}".format(y,
+                               f"_and_{secondary_y_label}"
+                               if second_y else "")
         # save image
-        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x, by, color)
+        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
+                                                             by, color)
         # if filename forced, change it
         if kwargs.get("plot_filename"):
-            filename = kwargs.get("plot_filename") + ".png"
+            filename = "outputs/" + kwargs.get("plot_filename") + ".png"
         fig.write_image(filename)
         # show fig
         fig.show()
