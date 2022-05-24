@@ -193,7 +193,7 @@ class SuicideData(DataPloter):
         return x.assign(ethno_race=lambda x: x.race + " " + x.ethnicity)
 
     def load_data(
-        self, drop_cols: List[str] = [], identifier: str = "Data"
+        self, drop_cols: List[str] = [], identifier: str = "Data", data_folder: str="Data",
     ) -> Dict[str, pd.DataFrame]:
         """
         Automatically load all files containing identifier.
@@ -210,7 +210,7 @@ class SuicideData(DataPloter):
             Dict[str, pd.DataFrame]: dictionnary containing specific
                 name of files and its associated dataframe.
         """
-        available_files = os.listdir("data")
+        available_files = os.listdir(data_folder)
         raw_data = [file for file in available_files if identifier in file]
 
         data = {
