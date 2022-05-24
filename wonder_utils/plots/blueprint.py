@@ -35,7 +35,7 @@ class DataPloter(ABC):
         self.partitions = dict()
 
         # will be cached
-        self.data = self.load_data(drop_cols=drop_cols)
+        self.data = self.load_data(drop_cols=drop_cols, data_folder=data_folder)
         self.processed_data = dict()
 
     @abc.abstractproperty
