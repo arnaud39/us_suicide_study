@@ -16,7 +16,13 @@ class SuicideData(DataPloter):
         ethno_race_4_cat, gender
 
     Available features to plot:
-        deaths, suicide_proportion, suicide_per_100k, age_adjusted_rate
+        deaths, suicide_proportion, suicide_per_100k, age_adjusted_rate,
+        suicide_proportion_2
+
+    Differences between suicide_proportion and suicide_proportion_2:
+        If color="gender", x="year", by="age_strat"
+        suicide_proportion: among 10-19's suicide, proportion of female
+        suicide_proportion_2: for women, % of suicide occuring among 10-19
 
     The data pipeline works as following:"""
 
@@ -241,14 +247,19 @@ class SuicideData(DataPloter):
         return {key: df.drop(df.filter(drop_cols), axis=1) for key, df in dataframes.items()}
     
     class Death_Data(DataPloter):
-    """
-    Available features to select:
-        state, month, age_category, ICD chapter
+        """
+        Available features to select:
+            state, month, age_category, ICD chapter
 
-    Available features to plot:
-        deaths, suicide_proportion, suicide_per_100k
+        Available features to plot:
+            deaths, suicide_proportion, suicide_per_100k, suicide_proportion_2
+        
+        Differences between suicide_proportion and suicide_proportion_2:
+            If color="gender", x="year", by="age_strat"
+            suicide_proportion: among 10-19's suicide, proportion of female
+            suicide_proportion_2: for women, % of suicide occuring among 10-19
 
-    The data pipeline works as following:"""
+        The data pipeline works as following:"""
 
     def __init__(
         self,

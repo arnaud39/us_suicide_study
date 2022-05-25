@@ -220,8 +220,15 @@ class DataPloter(ABC):
             )
 
         # add suicide_proportion
+        # Example: among 10-19's suicide, proportion of female
         data_["suicide_proportion"] = ((100 * data_.groupby(level=[0, 1, 2]).sum().deaths
                                        / data_.groupby(level=[1, 2]).sum().deaths)
+                                       .reset_index()
+                                       .set_index([color, x, by]))
+        # add another proportion
+        # Example: for women, % of suicide occuring among 10-19
+        data_["suicide_proportion_2"] = ((100 * data_.groupby(level=[0, 1, 2]).sum().deaths
+                                       / data_.groupby(level=[0, 1]).sum().deaths)
                                        .reset_index()
                                        .set_index([color, x, by]))
 
