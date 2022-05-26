@@ -122,9 +122,7 @@ class DataPloter(ABC):
             pd.DataFrame: pointer to the slice of the initial dataframe
             (not a copy!)
         """
-        return df.loc[(slice(None),
-                       slice(None),
-                       subpop)].sort_index().reset_index()
+        return df.loc[(slice(None), slice(None), subpop)].sort_index().reset_index()
 
     def merge(
         self,
@@ -182,8 +180,7 @@ class DataPloter(ABC):
                 .set_index([color, x, by, "age_strat"])
             )
 
-            data_operation = data_.loc[slice(None), slice(None),
-                                       slice(None), partition]
+            data_operation = data_.loc[slice(None), slice(None), slice(None), partition]
 
             prob = (
                 (
@@ -199,8 +196,7 @@ class DataPloter(ABC):
                 .groupby(level=[0, 1, 2])
                 .sum()
             )
-            data_ = data_.loc[slice(None), slice(None),
-                              slice(None), "Overall"].assign(
+            data_ = data_.loc[slice(None), slice(None), slice(None), "Overall"].assign(
                 adj_deaths=adj_deaths
             )
         else:
@@ -221,21 +217,30 @@ class DataPloter(ABC):
 
         # add suicide_proportion
         # Example: among 10-19's suicide, proportion of female
-        data_["suicide_proportion"] = ((100 * data_.groupby(level=[0, 1, 2]).sum().deaths
-                                       / data_.groupby(level=[1, 2]).sum().deaths)
-                                       .reset_index()
-                                       .set_index([color, x, by]))
+        data_["suicide_proportion"] = (
+            (
+                100
+                * data_.groupby(level=[0, 1, 2]).sum().deaths
+                / data_.groupby(level=[1, 2]).sum().deaths
+            )
+            .reset_index()
+            .set_index([color, x, by])
+        )
         # add another proportion
         # Example: for women, % of suicide occuring among 10-19
-        data_["suicide_proportion_2"] = ((100 * data_.groupby(level=[0, 1, 2]).sum().deaths
-                                       / data_.groupby(level=[0, 1]).sum().deaths)
-                                       .reset_index()
-                                       .set_index([color, x, by]))
+        data_["suicide_proportion_2"] = (
+            (
+                100
+                * data_.groupby(level=[0, 1, 2]).sum().deaths
+                / data_.groupby(level=[0, 1]).sum().deaths
+            )
+            .reset_index()
+            .set_index([color, x, by])
+        )
 
         # add pop_share
         data_["pop_share"] = (
-            (100.0 * data_.population
-             / data_.groupby(level=[1, 2]).sum().population)
+            (100.0 * data_.population / data_.groupby(level=[1, 2]).sum().population)
             .reset_index()
             .set_index([color, x, by])
         )
@@ -272,6 +277,8 @@ class DataPloter(ABC):
         rows: int = 2,
         data_slice: Dict[str, Any] = dict(),
         second_y: Dict[str, Any] = dict(),
+        save_file: bool = True,
+        show_fig: bool=True,
         **kwargs,
     ) -> None:
         """
@@ -332,9 +339,7 @@ class DataPloter(ABC):
         by_list = kwargs.get("by_list", by_list)
 
         # adjust the number of cols for the plot
-        cols = (len(by_list) // rows + 1
-                if len(by_list) % rows
-                else len(by_list) // rows)
+        cols = len(by_list) // rows + 1 if len(by_list) % rows else len(by_list) // rows
 
         # add a secondary y-axis to the fig if there is another y-axis
         secondary_y = True if second_y.get("secondary_y") else False
@@ -387,8 +392,7 @@ class DataPloter(ABC):
                                 name=c,
                                 showlegend=showlegend,
                                 mode=mode,
-                                line=dict(**second_y.get("line_param",
-                                                         dict())),
+                                line=dict(**second_y.get("line_param", dict())),
                             )
                         ),
                         row=(1 + i // cols),
@@ -400,12 +404,9 @@ class DataPloter(ABC):
         self.relabel_fig(fig)
 
         # change the text if there are two y-axis
-        y_text = "{}{}".format(y,
-                               f" and {secondary_y_label}"
-                               if second_y else "")
+        y_text = "{}{}".format(y, f" and {secondary_y_label}" if second_y else "")
         # slice text in the plot title (if there is at least a slice)
-        slice_list = [f"{it[0]}: {self.s_print(it[1])}"
-                      for it in data_slice.items()]
+        slice_list = [f"{it[0]}: {self.s_print(it[1])}" for it in data_slice.items()]
         slice_text = ", ".join(slice_list)
 
         # title of the plot & legend title
@@ -465,8 +466,7 @@ class DataPloter(ABC):
         )
 
         # second y-axis name, default to secondary_y_label
-        second_y_title_text = kwargs.get("second_y_title_text",
-                                         secondary_y_label)
+        second_y_title_text = kwargs.get("second_y_title_text", secondary_y_label)
         if secondary_y:  # update also the secondary y_axis
             fig.update_yaxes(
                 showline=True,
@@ -481,15 +481,14 @@ class DataPloter(ABC):
             )
         # name of the file
         # (different text if there are two y-axis)
-        y_text = "{}{}".format(y,
-                               f"_and_{secondary_y_label}"
-                               if second_y else "")
+        y_text = "{}{}".format(y, f"_and_{secondary_y_label}" if second_y else "")
         # save image
-        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x,
-                                                             by, color)
+        filename = "outputs/{}_{}_by_{}_color_{}.png".format(y_text, x, by, color)
         # if filename forced, change it
         if kwargs.get("plot_filename"):
             filename = "outputs/" + kwargs.get("plot_filename") + ".png"
-        fig.write_image(filename)
-        # show fig
-        fig.show()
+
+        if save_file:
+            fig.write_image(filename)
+        if show_fig:
+            fig.show()

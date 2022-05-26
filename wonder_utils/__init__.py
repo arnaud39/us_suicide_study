@@ -1,1 +1,1 @@
-from .data_loader.cdc_wonder import SuicideData
+from .data_loader.cdc_wonder import SuicideData, Death_Data
