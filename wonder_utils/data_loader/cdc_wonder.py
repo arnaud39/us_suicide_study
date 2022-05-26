@@ -246,20 +246,20 @@ class SuicideData(DataPloter):
         }
         return {key: df.drop(df.filter(drop_cols), axis=1) for key, df in dataframes.items()}
     
-    class Death_Data(DataPloter):
-        """
-        Available features to select:
-            state, month, age_category, ICD chapter
+class Death_Data(DataPloter):
+    """
+    Available features to select:
+        state, month, age_category, ICD chapter
 
-        Available features to plot:
-            deaths, suicide_proportion, suicide_per_100k, suicide_proportion_2
-        
-        Differences between suicide_proportion and suicide_proportion_2:
-            If color="gender", x="year", by="age_strat"
-            suicide_proportion: among 10-19's suicide, proportion of female
-            suicide_proportion_2: for women, % of suicide occuring among 10-19
+    Available features to plot:
+        deaths, suicide_proportion, suicide_per_100k, suicide_proportion_2
+    
+    Differences between suicide_proportion and suicide_proportion_2:
+        If color="gender", x="year", by="age_strat"
+        suicide_proportion: among 10-19's suicide, proportion of female
+        suicide_proportion_2: for women, % of suicide occuring among 10-19
 
-        The data pipeline works as following:"""
+    The data pipeline works as following:"""
 
     def __init__(
         self,
@@ -306,14 +306,14 @@ class SuicideData(DataPloter):
             rename_mapper (_type_, optional): dictionnary to rename
                 the columns.
                 Defaults to {"Single Race 6": "race",
-                             "Race": "race",
-                             "Gender": "gender",
-                             "Residence HHS Region Code": "hhs",
-                             "HHS Region Code": "hhs",
-                             "Population": "population",
-                             "Year": "year", "Deaths": "deaths",
-                             "Hispanic Origin": "ethnicity",
-                             "Age Adjusted Rate": "age_adjusted_rate",}.
+                            "Race": "race",
+                            "Gender": "gender",
+                            "Residence HHS Region Code": "hhs",
+                            "HHS Region Code": "hhs",
+                            "Population": "population",
+                            "Year": "year", "Deaths": "deaths",
+                            "Hispanic Origin": "ethnicity",
+                            "Age Adjusted Rate": "age_adjusted_rate",}.
 
         Returns:
             pd.DataFrame: converted file into a pandas dataframe
@@ -389,7 +389,7 @@ class SuicideData(DataPloter):
         x[self.convert_cols] = x[self.convert_cols].apply(
             pd.to_numeric, errors="coerce"
         )
- 
+
         x = x.loc[
             ~pd.concat(
                 [x.eq(forbidden).any(axis=1) for forbidden in self.reject_list], axis=1
