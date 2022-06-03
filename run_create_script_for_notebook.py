@@ -20,25 +20,25 @@ ages_to_plot = [("10-19", "adolescents", False),
 
 script = """
 #| **Objective:** assess racial-ethnic mix in adolescent suicides and contrast with overall suicides.
-#| 
+#|
 #| Other research questions: evolution of the racial-ethnic distribution of adolescent suicides over time (+ relative to the proportion of the population in that age group)
-#| 
+#|
 #| In parallel: evolution of the racial-ethnic distribution of overall suicides and adult suicides (20+) over time (+ relative to the proportion of the US population -- overall or 20+)
-#| 
+#|
 #| For now, we can focus on the national level.
-#| 
+#|
 #| However, we could also assess whether differences among racial-ethnic subgroups are more pronounced in certain HHS regions and/or states.
-#| 
+#|
 #| Along these lines, health journalists at CNN, US News, and NBC were most interested in the racial-ethnic mix in the 5 states with a stat. sig. increase in the absolute number of suicides + proportion outcome as well as California (stat. sig. increase in the proportion outcome only).
 
 #| **Data extraction :**
-#| 
+#|
 #| [CDC Wonder](https://wonder.cdc.gov/mcd.html), Provisional Mortality Statistics, 2018 through Last Month Request & Current Final Multiple Cause of Death Data
 #| 
 #| Groupby: Residence HHS Regions, Gender, Year, Single Race 6, Hispanic Origin
-#| 
+#|
 #| Cause of death: Intentional self-harm
-#| 
+#|
 #| 7 files:
 #| *  All years "Overall"  (age-adjusted)
 #| *  10-19 years "10-19"
@@ -47,7 +47,7 @@ script = """
 #| *  20+ years "20plus"
 #| *  25+ years "25plus"  (age-adjusted)
 #| *  65+ years "65plus"  (age-adjusted)
-#| 
+#|
 #| Years after 2010
 
 # Run this code to keep plotly figures when exporting the notebook in HTML
@@ -158,6 +158,7 @@ plot_func(color="{cat}", by="age_strat",
 """
     return s
 
+
 for age_cat, age_cat_name, plot_age_adjusted in ages_to_plot:
     script += add_to_script(age_cat, age_cat_name, plot_age_adjusted)
 
@@ -168,6 +169,7 @@ script += """
 script += """
 #| ## First type of visualizations: one subplot by HHS region
 """
+
 
 def add_to_script_hhs_1(age_cat, age_cat_name, plot_age_adjusted):
     nb_graphs = (len(categories) * 5 if plot_age_adjusted

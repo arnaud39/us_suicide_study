@@ -157,63 +157,81 @@ class DataPloter(ABC):
         # then we take the Overall and the adjusted
 
         data_ = self.select_data(data_slice=data_slice)
+
+        # also calculate a data_no_slice
+        # we need all age groups to calculate the proportion
+        data_no_slice_ = self.select_data()
+
         # get the list of values by
 
         by_list = data_[by].unique()
         by_list = [k for k in by_list if k not in self.reject_list]
         by_list.sort()
 
-        if "age_strat" not in [x, color, by, *data_slice.keys()]:
+        def modify_data_(
+            data_: pd.DataFrame,
+            data_slice: Dict[str, Any]
+        ) -> pd.DataFrame:
+            if "age_strat" not in [x, color, by, *data_slice.keys()]:
 
-            partition = ["25-64", "25plus"]
+                partition = ["25-64", "25plus"]
 
-            data_ = (
-                data_.set_index([color, x, by, "age_strat"])[
-                    ["deaths", "population", "age_adjusted_rate"]
-                ]
-                .groupby(level=[0, 1, 2, 3])
-                .sum()
-                .assign(
-                    suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                data_ = (
+                    data_.set_index([color, x, by, "age_strat"])[
+                        ["deaths", "population", "age_adjusted_rate"]
+                    ]
+                    .groupby(level=[0, 1, 2, 3])
+                    .sum()
+                    .assign(
+                        suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                    )
+                    .reset_index()
+                    .set_index([color, x, by, "age_strat"])
                 )
-                .reset_index()
-                .set_index([color, x, by, "age_strat"])
-            )
 
-            data_operation = data_.loc[slice(None), slice(None), slice(None), partition]
+                data_operation = data_.loc[slice(None), slice(None), slice(None), partition]
 
-            prob = (
-                (
-                    data_operation["deaths"].groupby(level=[1, 3]).sum()
-                    / data_operation["deaths"].groupby(level=[1]).sum()
+                prob = (
+                    (
+                        data_operation["deaths"].groupby(level=[1, 3]).sum()
+                        / data_operation["deaths"].groupby(level=[1]).sum()
+                    )
+                    .groupby(level=1)
+                    .mean()
                 )
-                .groupby(level=1)
-                .mean()
-            )
 
-            adj_deaths = (
-                (data_operation["deaths"] / prob * prob.apply(lambda x: x ** 2).sum())
-                .groupby(level=[0, 1, 2])
-                .sum()
-            )
-            data_ = data_.loc[slice(None), slice(None), slice(None), "Overall"].assign(
-                adj_deaths=adj_deaths
-            )
-        else:
-
-            # add suicide_per_100k, groupby multi-index
-            data_ = (
-                data_.set_index([color, x, by])[
-                    ["deaths", "population", "age_adjusted_rate"]
-                ]
-                .groupby(level=[0, 1, 2])
-                .sum()
-                .assign(
-                    suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                adj_deaths = (
+                    (data_operation["deaths"] / prob * prob.apply(lambda x: x ** 2).sum())
+                    .groupby(level=[0, 1, 2])
+                    .sum()
                 )
-                .reset_index()
-                .set_index([color, x, by])
-            )
+                data_ = data_.loc[slice(None), slice(None), slice(None), "Overall"].assign(
+                    adj_deaths=adj_deaths
+                )
+
+                # drop the fourth index age_strat
+                data_ = (data_.reset_index()
+                         .set_index([color, x, by])
+                         .drop(columns=["age_strat"]))
+            else:
+
+                # add suicide_per_100k, groupby multi-index
+                data_ = (
+                    data_.set_index([color, x, by])[
+                        ["deaths", "population", "age_adjusted_rate"]
+                    ]
+                    .groupby(level=[0, 1, 2])
+                    .sum()
+                    .assign(
+                        suicide_per_100k=lambda x: 100000.0 * x.deaths / x.population,
+                    )
+                    .reset_index()
+                    .set_index([color, x, by])
+                )
+            return data_
+        # apply the transformation to data_ and data_no_slice_
+        data_ = modify_data_(data_, data_slice)
+        data_no_slice_ = modify_data_(data_no_slice_, {})
 
         # add suicide_proportion
         # Example: among 10-19's suicide, proportion of female
@@ -228,15 +246,39 @@ class DataPloter(ABC):
         )
         # add another proportion
         # Example: for women, % of suicide occuring among 10-19
-        data_["suicide_proportion_2"] = (
-            (
-                100
-                * data_.groupby(level=[0, 1, 2]).sum().deaths
-                / data_.groupby(level=[0, 1]).sum().deaths
+        if by != "age_strat":
+            data_no_slice_["suicide_proportion_2"] = (
+                (
+                    100
+                    * data_no_slice_.groupby(level=[0, 1, 2]).sum().deaths
+                    / data_no_slice_.groupby(level=[0, 1]).sum().deaths
+                )
+                .reset_index()
+                .set_index([color, x, by])
             )
-            .reset_index()
-            .set_index([color, x, by])
-        )
+        else:  # there are overlapping age_strat (20+, 20-64 etc. So just select "Overall")
+            numerator = data_no_slice_.groupby(level=[0, 1, 2]).sum()[["deaths"]]
+            denom = (data_no_slice_.groupby(level=[0, 1, 2]).sum()
+                     .loc[slice(None), slice(None), "Overall"]
+                     .reset_index()
+                     .set_index([color, x])
+                     .drop(columns=[by])[["deaths"]])
+            denom.columns = ["tot_deaths"]
+            numerator = numerator.join(denom)
+            data_no_slice_["suicide_proportion_2"] = (
+                (
+                    100
+                    * numerator.deaths
+                    / numerator.tot_deaths
+                )
+                .reset_index()
+                .set_index([color, x, by])
+            )
+        # select only the column suicide_proportion_2 (to avoid overlap)
+        data_no_slice_ = data_no_slice_[["suicide_proportion_2"]]
+        # keep only the index in data_ among all the index of data_no_slice_
+        # this add the column suicide_proportion_2
+        data_ = data_.join(data_no_slice_)
 
         # add pop_share
         data_["pop_share"] = (
