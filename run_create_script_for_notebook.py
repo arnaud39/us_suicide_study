@@ -64,13 +64,17 @@ sd = SuicideData()  # or? reject_list=["More than one race", "Not Stated"]
 
 def plot_func(color, by, age_cat, age_cat_name,
               slice, rows, legend_text, by_list,
-              plot_age_adjusted, additional_filename_text):
+              plot_age_adjusted, additional_filename_text,
+              other_data_slice={}, additional_subplot_title=""):
+    data_slice = {"age_strat": slice}
+    for key, value in list(other_data_slice.items()):
+        data_slice[key] = value
     plot_params = {"x": "year",
                    "color": color,
                    "by": by,
                    "scatter": False,
                    "rows": rows,
-                   "data_slice": {"age_strat": slice},
+                   "data_slice": data_slice,
                    "second_y": {"secondary_y": True,
                                 "y": "pop_share",
                                 "line_param": {"dash": "dot"}}}
@@ -80,7 +84,8 @@ def plot_func(color, by, age_cat, age_cat_name,
               "secondary_ticksuffix": "%",
               "hide_title": True,
               "second_y_title_text": "% of the population in this age group",
-              "legend_text": legend_text}
+              "legend_text": legend_text,
+              "additional_subplot_title": additional_subplot_title}
 
     plot_params["y"] = "deaths"
     kwargs["y_title_text"] = f"Absolute count of suicides among {age_cat_name} ({age_cat})"
@@ -231,6 +236,27 @@ plot_func(color="hhs", by="{cat}",
 
 for age_cat, age_cat_name, plot_age_adjusted in ages_to_plot:
     script += add_to_script_hhs_2(age_cat, age_cat_name, plot_age_adjusted)
+
+script += """
+#| # Additional graphs
+"""
+
+script += """
+#| Adolescents females, by race
+
+plot_func(color="race", by="age_strat",
+          age_cat="10-19",
+          age_cat_name="adolescents",
+          slice="10-19",
+          rows=1,
+          legend_text="Race",
+          by_list=None,
+          plot_age_adjusted=False,
+          additional_filename_text="",
+          other_data_slice={"gender": "Female",
+                            "race": ["Black", "White"]},
+          additional_subplot_title=" - Gender=Female")
+"""
 
 with open("script_to_convert.py", "w+") as f:
     f.write(script)

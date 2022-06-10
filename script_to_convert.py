@@ -865,3 +865,22 @@ plot_func(color="hhs", by="ethno_race_4_cat",
           by_list=None,
           plot_age_adjusted=False,
           additional_filename_text="_hhs_2")
+
+#| # Additional graphs
+
+#| # Analysis by HHS region
+
+#| Adolescents females, by race
+
+plot_func(color="race", by="age_strat",
+          age_cat="10-19",
+          age_cat_name="adolescents",
+          slice="10-19",
+          rows=1,
+          legend_text="Race",
+          by_list=None,
+          plot_age_adjusted=False,
+          additional_filename_text="",
+          other_data_slice={"gender": "Female",
+                            "race": ["Black", "White"]},
+          additional_subplot_title=" - Gender=Female")

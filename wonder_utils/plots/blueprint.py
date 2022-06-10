@@ -370,6 +370,8 @@ class DataPloter(ABC):
                         "range_dic": [[0, 18], [0, 9], [0, 22], [0, 22]]}
                     -> Force the name of the figure
                         "plot_filename": "image1"
+                    -> Add a text to the subplot titles
+                        "additional_subplot_title": str
         """
 
         processed_data, by_list = self.merge(
@@ -390,10 +392,11 @@ class DataPloter(ABC):
             if secondary_y
             else None
         )
+        subplot_titles = list(map(lambda x: str(x) + kwargs.get("additional_subplot_title", ""), by_list))
         fig = make_subplots(
             rows=rows,
             cols=cols,
-            subplot_titles=tuple(map(lambda x: str(x), by_list)),
+            subplot_titles=tuple(subplot_titles),
             specs=specs,
         )
 
