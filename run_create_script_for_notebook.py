@@ -96,7 +96,7 @@ def plot_func(color, by, age_cat, age_cat_name,
         )
 
     plot_params["y"] = "suicide_proportion"
-    kwargs["y_title_text"] = f"Proportion of suicides occurring among {age_cat_name} ({age_cat})"
+    kwargs["y_title_text"] = f"Proportion 1: among {age_cat_name} ({age_cat}), proportion of suicides by {color}"
     kwargs["plot_filename"] = f"{age_cat_name}_{age_cat}_{color}_{plot_params['y']}" + additional_filename_text
     kwargs["primary_ticksuffix"] = "%"
     plot_params.update(kwargs)
@@ -105,7 +105,7 @@ def plot_func(color, by, age_cat, age_cat_name,
         )
 
     plot_params["y"] = "suicide_proportion_2"
-    kwargs["y_title_text"] = f"Proportion of suicides occurring among {age_cat_name} ({age_cat})"
+    kwargs["y_title_text"] = f"Proportion 2: by {color}, proportion of suicides occurring among {age_cat_name} ({age_cat})"
     kwargs["plot_filename"] = f"{age_cat_name}_{age_cat}_{color}_{plot_params['y']}" + additional_filename_text
     plot_params.update(kwargs)
 
@@ -252,9 +252,44 @@ plot_func(color="race", by="age_strat",
           legend_text="Race",
           by_list=None,
           plot_age_adjusted=False,
-          additional_filename_text="",
+          additional_filename_text="_filter_gender_female",
           other_data_slice={"gender": "Female",
                             "race": ["Black", "White"]},
+          additional_subplot_title=" - Gender=Female")
+"""
+
+script += """
+#| Adolescents females, by ethnicity
+
+plot_func(color="ethnicity", by="age_strat",
+          age_cat="10-19",
+          age_cat_name="adolescents",
+          slice="10-19",
+          rows=1,
+          legend_text="Ethnicity",
+          by_list=None,
+          plot_age_adjusted=False,
+          additional_filename_text="_filter_gender_female",
+          other_data_slice={"gender": "Female"},
+          additional_subplot_title=" - Gender=Female")
+"""
+
+script += """
+#| Adolescents females, by race-ethnicity
+
+plot_func(color="ethno_race_4_cat", by="age_strat",
+          age_cat="10-19",
+          age_cat_name="adolescents",
+          slice="10-19",
+          rows=1,
+          legend_text="Race-Ethnicity",
+          by_list=None,
+          plot_age_adjusted=False,
+          additional_filename_text="_filter_gender_female",
+          other_data_slice={"gender": "Female",
+                            "ethno_race_4_cat": ["Hispanic",
+                                                 "Non-hispanic Black",
+                                                 "Non-hispanic White"]},
           additional_subplot_title=" - Gender=Female")
 """
 

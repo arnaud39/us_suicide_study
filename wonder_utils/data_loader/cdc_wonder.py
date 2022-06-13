@@ -245,7 +245,7 @@ class SuicideData(DataPloter):
             for age_strat in age_strats
         }
         return {key: df.drop(df.filter(drop_cols), axis=1) for key, df in dataframes.items()}
-    
+
 class Death_Data(DataPloter):
     """
     Available features to select:
@@ -253,7 +253,7 @@ class Death_Data(DataPloter):
 
     Available features to plot:
         deaths, suicide_proportion, suicide_per_100k, suicide_proportion_2
-    
+
     Differences between suicide_proportion and suicide_proportion_2:
         If color="gender", x="year", by="age_strat"
         suicide_proportion: among 10-19's suicide, proportion of female
