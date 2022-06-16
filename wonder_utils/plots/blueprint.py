@@ -231,7 +231,12 @@ class DataPloter(ABC):
             return data_
         # apply the transformation to data_ and data_no_slice_
         data_ = modify_data_(data_, data_slice)
-        data_no_slice_ = modify_data_(data_no_slice_, {})
+        # data_no_slice_ is data_ but without any age_group slice
+        # this allow us to correctly calculate the proportion 2
+        # (proportion occuring among a given age group)
+        slice_no_ag = {key: value for (key, value) in data_slice.items()
+                       if key != "age_group"}
+        data_no_slice_ = modify_data_(data_no_slice_, slice_no_ag)
 
         # add suicide_proportion
         # Example: among 10-19's suicide, proportion of female

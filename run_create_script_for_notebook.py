@@ -253,8 +253,7 @@ plot_func(color="race", by="age_strat",
           by_list=None,
           plot_age_adjusted=False,
           additional_filename_text="_filter_gender_female",
-          other_data_slice={"gender": "Female",
-                            "race": ["Black", "White"]},
+          other_data_slice={"gender": "Female"},
           additional_subplot_title=" - Gender=Female")
 """
 
@@ -286,10 +285,7 @@ plot_func(color="ethno_race_4_cat", by="age_strat",
           by_list=None,
           plot_age_adjusted=False,
           additional_filename_text="_filter_gender_female",
-          other_data_slice={"gender": "Female",
-                            "ethno_race_4_cat": ["Hispanic",
-                                                 "Non-hispanic Black",
-                                                 "Non-hispanic White"]},
+          other_data_slice={"gender": "Female"},
           additional_subplot_title=" - Gender=Female")
 """
 
