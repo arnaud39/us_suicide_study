@@ -1,8 +1,16 @@
+"""
+Between 2018 and 2020, compare crude suicide rate and age adjusted rates for the
+different pairs of gender/ethnicity. Study at the nation-level on individuals
+older than 20 years old
+"""
 import requests
 import bs4 as bs
 import pandas as pd
+import numpy as np
+from collections import defaultdict
 
 
+# Core functions to extract CDC Wonder data
 def createParameterList(parameterList):
     """Helper function to create a parameter list from a dictionary object"""
 
@@ -102,7 +110,7 @@ def process_query(xml_request, columns):
     return df
 
 
-##
+# Global parameters for our queries
 
 # by-variables" or those parameters selected in the "Group Results By" and the "And By" drop-down lists
 # in the "Request Form." These "by-variables" are the cross-tabulations, stratifications or indexes
@@ -240,13 +248,11 @@ parameters["v_parameters"] = v_parameters
 parameters["misc_parameters"] = misc_parameters
 
 
-##
+# Adjust the queries, store in dictionary and save the results as dataframes
 
-import os
-os.chdir(r"C:\Users\acarr\Documents\MIT Internship\Suicide Project\us_suicide_study\Data\sanity_check")
-
-five_year_age_groups = [["10-14", "15-19"]] + [[f"{5*i}-{5*(i+1)-1}"] for i in range(4, 20)]
-names = ["10-19"] + [f"{5*i}-{5*(i+1)-1}" for i in range(4, 20)]
+# Here, we want one dataframe per 5 year-age groups
+five_year_age_groups = [[f"{5*i}-{5*(i+1)-1}"] for i in range(4, 20)]  # [["10-14", "15-19"]] + ...
+names = [f"{5*i}-{5*(i+1)-1}" for i in range(4, 20)]  # ["10-19"] +
 dic_results = {}
 
 for five_year_age_group, name in zip(five_year_age_groups, names):
@@ -256,10 +262,12 @@ for five_year_age_group, name in zip(five_year_age_groups, names):
     parameters["o_parameters"]["O_age"] = "D76.V51"
     xml_request = create_xml(parameters)
     df = process_query(xml_request, columns)
+    # correct trailing spaces in the year column
+    df["Year"] = df["Year"].apply(lambda x: x.replace(" ", ""))
     dic_results[name] = df
     df.to_csv(f"suicide_gender_ethnicity_{name}.csv", index=False)
 
-##
+# Weights to calculate age-adjusted rates
 
 weights = {}  # https://www.cdc.gov/nchs/data/statnt/statnt20.pdf
 weights["under 1"] = 0.013818
@@ -273,7 +281,7 @@ weights["12-14"] = 0.042963
 weights["15-17"] = 0.043035
 weights["18-19"] = 0.029133
 weights["20-24"] = 0.066478
-weights["24-29"] = 0.064530
+weights["25-29"] = 0.064530
 weights["30-34"] = 0.071044
 weights["35-39"] = 0.080762
 weights["40-44"] = 0.081851
@@ -289,4 +297,48 @@ weights["85+"] = 0.015508
 
 weights["10-19"] = weights["10-11"] + weights["12-14"] + weights["15-17"] + weights["18-19"]
 
-for
+# assumption: weights of 85-89, 90-94 and 95-99 are all equals to a third of the weight 85+
+weights["85-89"] = weights["85+"] / 3
+weights["90-94"] = weights["85+"] / 3
+weights["95-99"] = weights["85+"] / 3
+
+# calculate sum of weights 20+ to normalize the weights
+sum_weights_20_plus = sum([weights[f"{5*i}-{5*(i+1)-1}"] for i in range(4, 20)])
+
+# merge all dataframe from all five-year age groups (greater than 20)
+keys = list(dic_results.keys())
+df_to_concat = []
+for i in range(len(keys)):
+    add_df = dic_results[keys[i]]
+    add_df.replace("Not Applicable", 0, inplace=True)
+    add_df["Age Group"] = keys[i]  # add age group as a column
+    add_df["Weight"] = weights[keys[i]] / sum_weights_20_plus  # normalize weights
+    df_to_concat.append(add_df)
+df = pd.concat(df_to_concat)
+
+# Recalculate crude rate
+df["Crude Rate"] = 100_000 * df["Deaths"] / df["Population"]
+df = df.fillna(0)  # replace nan values
+df = df.replace(np.inf, 0)  # replace inf values (no population for the age groups 90+?)
+dic_res = defaultdict(list)  # store the results
+# compare for each year and gender/ethnicity mix the crude suicide rate and the age-adjusted suicide rate
+for year in range(2018, 2021):
+    for gender in ["Female", "Male"]:
+        for ethnicity in ["Not Hispanic or Latino", "Hispanic or Latino"]:
+            df_year = df[df["Year"] == str(year)]
+            sub_df = df_year[(df_year["Gender"] == gender) & (df_year["Ethnicity"] == ethnicity)]
+            crude_rate = 100_000 * sub_df["Deaths"].sum() / sub_df["Population"].sum()
+            age_adjusted_rate = (sub_df["Crude Rate"] * sub_df["Weight"]).sum()
+
+            dic_res["Year"].append(year)
+            dic_res["Gender"].append(gender)
+            dic_res["Ethnicity"].append(ethnicity)
+            dic_res["Crude Rate"].append(crude_rate)
+            dic_res["Age-adjusted Rate"].append(age_adjusted_rate)
+
+df_res = pd.DataFrame.from_dict(dic_res)
+print(df_res)
+max_abs_error = (df_res["Crude Rate"] - df_res["Age-adjusted Rate"]).abs().max()
+print(f"Maximum Absolute Error: {max_abs_error}")
+mape = ((df_res["Age-adjusted Rate"] - df_res["Crude Rate"]) / df_res["Crude Rate"]).abs().max()
+print(f"MAPE: {mape}")
